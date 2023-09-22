@@ -1,0 +1,56 @@
+.header__navigation {
+  height: 100%;
+}
+
+.nav-icon {
+  cursor: pointer;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+
+  span,
+  span::before,
+  span::after {
+    height: 3px;
+    width: 4rem;
+    background-color: var(--color-black);
+    display: block;
+  }
+
+  span::before,
+  span::after {
+    transition: all 0.2s;
+    content: "";
+  }
+
+  span::before {
+    transform: translateY(-1rem) rotate(0);
+  }
+
+  span::after {
+    transform: translateY(0.8rem) rotate(0);
+  }
+
+  &:hover span::before {
+    transform: translateY(-1.4rem);
+  }
+  &:hover span::after {
+    transform: translateY(1.2rem);
+  }
+}
+
+.nav-icon.open {
+  span {
+    height: 0;
+  }
+
+  span::before {
+    transform: translateY(0.2rem) rotate(135deg);
+  }
+
+  span::after {
+    transform: translateY(-0.1rem) rotate(-135deg);
+  }
+}

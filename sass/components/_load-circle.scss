@@ -1,0 +1,19 @@
+.load-circle {
+  position: absolute;
+  top: 15rem;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 7rem;
+  width: 7rem;
+  z-index: 2000;
+  span {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1rem solid grey;
+    border-left-color: transparent;
+
+    animation: spinner 0.8s infinite;
+  }
+}

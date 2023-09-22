@@ -1,0 +1,140 @@
+.quiz-data {
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: var(--color-grey-light-1);
+  margin-bottom: 5rem;
+
+  &__question {
+  }
+
+  &__title {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid purple;
+
+    &--text {
+      font-size: 2.5rem;
+      line-height: 1.6;
+
+      span {
+        font-size: 2.6rem;
+      }
+    }
+
+    &--image {
+      max-width: 90%;
+    }
+  }
+
+  &__answers {
+    list-style: none;
+  }
+
+  &__answer {
+    font-size: 2.2rem;
+
+    font-weight: 700;
+    padding: 1.6rem;
+    background-color: white;
+    margin-bottom: 1.2rem;
+    position: relative;
+
+    line-height: 1.6;
+    cursor: pointer;
+    transition: all 0s;
+
+    &::before,
+    &::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 600;
+      font-size: 3.5rem;
+      position: absolute;
+      left: 0rem;
+      background-color: white;
+      height: 102%;
+      width: 7rem;
+      display: flex;
+      justify-content: center;
+      top: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transform: scaleX(1) translateY(-50%);
+      transition: all 0s;
+    }
+
+    &::before {
+      content: "\f00d";
+      color: red;
+    }
+
+    &::after {
+      content: "\f00c";
+      color: green;
+    }
+
+    &.false,
+    &.true {
+      padding-left: 8rem;
+    }
+
+    &.true {
+      background-color: green;
+      color: white;
+    }
+
+    &.false {
+      background-color: red;
+      color: white;
+    }
+
+    &.false::before {
+      opacity: 1;
+      transform: scaleX(1) translateY(-50%);
+    }
+    &.true::after {
+      opacity: 1;
+      transform: scaleX(1) translateY(-50%);
+    }
+  }
+
+  &__desc {
+  }
+
+  &__video {
+    display: none;
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 100rem;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    padding: 0.4rem 0 2rem;
+    font-size: 2rem;
+    color: #555;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.6;
+
+    display: none;
+
+    &:first-of-type {
+      margin-top: 2rem;
+    }
+
+    span {
+      color: purple;
+    }
+  }
+}

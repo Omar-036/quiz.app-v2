@@ -1,0 +1,32 @@
+{
+  "materials": [
+    {
+      "arabicName": "نظم التشغيل",
+      "englishName": "(operating system)",
+      "date": "7 / 5/ 2023",
+      "author": "nothing now",
+      "img": "bg/OS.jpg"
+    },
+    {
+      "arabicName": "برمجة تطبيقات الأنترنت",
+      "englishName": "(WEB)",
+      "date": "7 / 5/ 2023",
+      "author": "nothing now",
+      "img": "bg/web.jpg"
+    },
+    {
+      "arabicName": "علوم عسكرية",
+      "englishName": "",
+      "date": "7 / 5/ 2023",
+      "author": "nothing now",
+      "img": "bg/military.jpg"
+    },
+    {
+      "arabicName": "تربية وطنية",
+      "englishName": "",
+      "date": "7 / 5/ 2023",
+      "author": "nothing now",
+      "img": "bg/nationality.jpg"
+    }
+  ]
+}

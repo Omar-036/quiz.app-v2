@@ -1,0 +1,26 @@
+.footer {
+  align-self: end;
+  padding: 2rem 0rem;
+
+  grid-column: 1 / -1;
+
+  direction: ltr;
+  background-color: #f8f8f8;
+
+  &__text {
+    display: flex;
+    font-size: 1.7rem;
+    align-items: center;
+    // flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  &__dev {
+    text-decoration: none;
+    color: var(--color-black);
+
+    font-weight: 700;
+    font-family: var(--font-english);
+    cursor: pointer;
+  }
+}

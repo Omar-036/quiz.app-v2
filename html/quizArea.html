@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="تست بانك لبعض المواد في الجامعة الهاشمية"
+    />
+    <meta name="keywords" content="Test, Test Bank, تست بانك" />
+    <meta name="author" content="Omar Alhaj" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Font Google [Noto | Open Sans]-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Noto+Sans+Arabic:wght@100;300;400;500;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Page Icon -->
+    <link rel="icon" href="../img/bank-icon.png" type="image/png" />
+
+    <title>Test Bank |</title>
+  </head>
+  <body class="container">
+    <div class="overlay"></div>
+
+    <div class="popup-main"></div>
+    <!-- Start Header -->
+
+    <header class="header sticky">
+      <a href="../index.html" class="header__logo">
+        <i class="fa-solid fa-building-columns header__logo--icon"></i>
+        <h2 class="header__logo--name">تست بانك</h2>
+      </a>
+
+      <form
+        action=""
+        id="header__search"
+        class="header__search search-box search-box--not-active"
+      >
+        <input
+          type="text"
+          class="search-box__input"
+          placeholder="ابحث عن المادة التي تريدها"
+        />
+
+        <div class="auto-complete"></div>
+
+        <i
+          class="fa-solid fa-magnifying-glass search-box__icon search-box__icon--ui show"
+        ></i>
+        <i
+          class="fa-solid fa-xmark search-box__icon search-box__icon--close"
+        ></i>
+      </form>
+
+      <nav class="header__navigation">
+        <div class="nav-icon">
+          <span class="nav-icon-span"></span>
+        </div>
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">أرغب في أضافة مادة</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">النسخة السابقة للموقع</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">للتواصل</a>
+          </li>
+
+          <li href="#" class="copyright">كل الحقوق محفوظة ولا لحد &copy;</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Start Quiz Area -->
+
+    <main class="quiz">
+      <div class="load-circle">
+        <span></span>
+      </div>
+
+      <!-- <div class="quiz-area quiz-area--english-quiz">
+        <h2
+          class="quiz-area__title u-text-center u-margin-top-small u-margin-bottom-medium"
+        >
+          operating system 1
+        </h2>
+        <div class="quiz-data">
+          <div class="quiz-data__question">
+            <div class="quiz-data__title">
+              <h3 class="quiz-data__title--text">
+                01 Which of the following schedulers could be used to reduce the
+                degree of multiple programming?
+              </h3>
+              <img src="../img/OS.jpg" alt="" class="quiz-data__title--image" />
+            </div>
+            <ul class="quiz-data__answers">
+              <li class="quiz-data__answer quiz-data__answer--1 false">
+                determines how to do something
+              </li>
+              <li class="quiz-data__answer quiz-data__answer--2 true">
+                determines what will be done
+              </li>
+              <li class="quiz-data__answer quiz-data__answer--3">answer 3</li>
+              <li class="quiz-data__answer quiz-data__answer--4">answer 4</li>
+            </ul>
+          </div>
+          <div class="quiz-data__desc">
+            <button class="show-more active">
+              show more <span><i class="fa-solid fa-arrow-right"></i></span>
+            </button>
+            <img src="../img/OS.jpg" alt="image" class="quiz-data__image" />
+            <p class="quiz-data__text">
+              Which of the following schedulers could be used to reduce the
+              degree of multiple programming?
+            </p>
+          </div>
+        </div>
+        <div class="quiz__quiz-result">
+          <h3 class="quiz__quiz-result--correct-answers">
+            correct answers<span> { 2 } </span>
+          </h3>
+          <h3 class="quiz__quiz-result--incorrect-answers">
+            wrong answers<span> { 8 } </span>
+          </h3>
+          <h3 class="quiz__quiz-result--greeter">
+            Perfect make move<span> 8 </span>
+          </h3>
+        </div>
+        <div class="quiz__next-step">
+          <a href="#" class="quiz__next-step--previous">previous exam</a>
+          <a href="#" class="quiz__next-step--re">Re-examination</a>
+          <a href="#" class="quiz__next-step--next">next exam</a>
+        </div>
+      </div> -->
+    </main>
+
+    <!-- End Quiz Area -->
+
+    <!-- Start Footer -->
+
+    <footer class="footer">
+      <div class="footer__text">
+        <a href="https://www.facebook.com/omar.alhaj.71653" class="footer__dev"
+          >made by <span class="footer__icon">💙</span></a
+        >
+        <h3></h3>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <!--  -->
+    <!-- JS Files -->
+    <!-- JQUERY CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Core -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-resize/1.1/jquery.ba-resize.min.js"
+      integrity="sha512-f39z0cdBuo6BZaPaU97tfdGSh0IJePwvm385z7hDHmmh357Huqbp0WyDnYuyWOysaIOSFCakaaoQlXJgSnM2dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Bugfix for iOS & <a href="https://www.jqueryscript.net/tags.php?/Android/">Android</a> -->
+
+    <!-- <script src="/path/to/mobileBUGFix.mini.js"></script> -->
+
+    <!--  JS Files -->
+    <!-- <script src="../js/header.js" defer></script> -->
+    <!-- <script src="../js/suggestions.js" defer></script> -->
+    <script src="../js/navIcon.js" defer></script>
+    <!-- <script src="../js/searchBox.js" defer></script> -->
+    <!-- <script src="../js/autoComplete.js" defer></script> -->
+    <script src="../js/quizArea.js" defer></script>
+
+    <!-- Main JS File -->
+    <script src="../js/script.js" defer></script>
+  </body>
+</html>

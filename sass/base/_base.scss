@@ -1,0 +1,117 @@
+:root {
+  --bg-image: linear-gradient(to right bottom, #902bf5, #f361fb);
+
+  --color-primary-purple: #902bf5;
+  --color-primary-pink: #f361fb;
+
+  --color-black: #000;
+  --color-white: #fff;
+
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+
+  --font-arabic: "Noto Sans Arabic", sans-serif;
+  --font-english: "Open Sans", sans-serif;
+  // --font-english: "Roboto", sans-serif;
+  // --font-english: "Lato", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  // direction: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  font-size: 62.5%; // 10px / 16px = 62.5%   1rem = 10px
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%; // 8px / 16px = 62.5%   1rem = 8px
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 37.5%; // 6px / 16px = 62.5%   1rem = 6px
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 31.25%; // 5px / 16px = 62.5%   1rem = 5px
+  }
+
+  &::-webkit-scrollbar {
+    width: 1.5rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #902bf5, #f361fb);
+    // background-color: pink;
+    // border-radius: 1.5rem;
+    // stroke: white;
+
+    // border: 0.6rem solid white;
+  }
+}
+
+body {
+  direction: rtl;
+
+  font-family: var(--font-english);
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.container {
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(8, [col-start] 1fr [col-end]);
+  grid-template-rows: 7rem;
+  align-items: start;
+
+  @media only screen and (max-width: $bp-small) {
+    grid-template-rows: 7rem 7rem;
+  }
+}
+
+*::selection {
+  background-color: var(--color-primary-pink);
+  color: var(--color-white);
+}
+
+img {
+  cursor: pointer;
+}
+
+img.active {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 500;
+  min-width: 50%;
+  width: 100%;
+  max-width: 100rem;
+  max-height: 100%;
+  cursor: auto;
+}
+
+.overlay {
+  position: fixed;
+  background-color: rgba(#000, 0.9);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 400;
+  display: none;
+}

@@ -1,0 +1,150 @@
+@keyframes moveRight {
+  0% {
+    transform: translateX(-20rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes moveRightX {
+  0% {
+    transform: translateX(-20rem);
+  }
+
+  100% {
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes moveLeftX {
+  0% {
+    transform: translateX(10rem);
+  }
+
+  100% {
+    transform: translateX(0rem);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(5rem);
+  }
+
+  80% {
+    transform: translateY(-1rem);
+  }
+
+  100% {
+    transform: translateY(0rem);
+  }
+}
+
+@keyframes moveUpWithOpacity {
+  0% {
+    opacity: 0.5;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
+
+@keyframes arrowRight {
+  0% {
+    transform: translateX(0rem);
+  }
+
+  100% {
+    transform: translateX(0.5rem);
+  }
+}
+
+@keyframes popupMain {
+  0% {
+    opacity: 0;
+    top: 60%;
+  }
+
+  50% {
+    opacity: 1;
+    top: 50%;
+  }
+
+  100% {
+    opacity: 0;
+    top: 40%;
+  }
+}
+
+@keyframes clickUp {
+  0% {
+    transform: translateY(0rem);
+  }
+
+  25% {
+    transform: translateY(-0.5rem);
+  }
+
+  40% {
+    transform: translateY(-0.1rem);
+  }
+
+  60% {
+    transform: translateY(-0.5rem);
+  }
+
+  80% {
+    transform: translateY(0rem);
+  }
+
+  100% {
+    transform: translateY(0rem);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// @keyframes moveDown {
+//   0% {
+//     transform: translateY(-3rem);
+//   }
+
+//   80% {
+//     transform: translateY(1rem);
+//   }
+
+//   100% {
+//     transform: translateY(0rem);
+//   }
+// }

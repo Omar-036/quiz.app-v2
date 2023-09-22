@@ -1,0 +1,24 @@
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/animations";
+@import "base/utilities";
+
+@import "pages/home";
+@import "pages/quizLanding";
+@import "pages/quizArea";
+
+@import "layout/header";
+@import "layout/landing";
+@import "layout/footer";
+
+@import "components/search-box";
+@import "components/nav-icon";
+@import "components/main-button";
+@import "components/material-box";
+@import "components/auto-complete";
+@import "components/quiz-box";
+@import "components/quiz-data";
+@import "components/popup-messages";
+@import "components/load-circle";

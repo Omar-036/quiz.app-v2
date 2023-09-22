@@ -1,0 +1,22 @@
+.landing {
+  position: relative;
+
+  &__img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 50%;
+    object-fit: cover;
+
+    animation: moveLeft 0.8s;
+
+    @media only screen and (max-width: $bp-medium) {
+      display: none;
+    }
+  }
+
+  &__text {
+    @media only screen and (max-width: $bp-medium) {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "materialName": "operating system",
+    "materialQuizes": [
+      {
+        "quizName": "mid 1",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "mid 2",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "mid 3",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "mid 4",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "mid 5",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "final 1",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "final 2",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "final 3",
+        "quizDesc": ""
+      }
+    ]
+  },
+  {
+    "materialName": "web",
+    "materialQuizes": [
+      {
+        "quizName": "mid 1",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "mid 2",
+        "quizDesc": ""
+      }
+    ]
+  },
+  {
+    "materialName": "علوم عسكربة",
+    "materialQuizes": [
+      {
+        "quizName": "mid 2",
+        "quizDesc": ""
+      }
+    ]
+  },
+  {
+    "materialName": "تربية وطنية",
+    "materialQuizes": []
+  }
+]

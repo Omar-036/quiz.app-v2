@@ -1,0 +1,28 @@
+.section-landing {
+  background-image: linear-gradient(to right bottom, #902bf5, #f361fb);
+  height: 85vh;
+  grid-column: col-start 1 / col-end 8;
+
+  padding: 2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  overflow: hidden;
+}
+
+.section-materials {
+  background-color: #333;
+  position: relative;
+  min-height: 50rem;
+  // margin-top: 8rem;
+
+  grid-column: col-start 1 / col-end 8;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  @media only screen and (min-width: $bp-large) {
+    animation: moveUpWithOpacity 0.5s;
+  }
+}

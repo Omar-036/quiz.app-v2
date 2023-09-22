@@ -1,0 +1,9 @@
+.section-quizes {
+  grid-column: 1 / -1;
+  padding: 6rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 4rem;
+  position: relative;
+}

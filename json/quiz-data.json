@@ -1,0 +1,1385 @@
+[
+  [
+    {
+      "materialName": "operating system نطم التشغيل",
+      "quiz-type": "english",
+      "quizName": "operating system mid 1",
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "The role of ........... is to defend the system from internal or external attacks.",
+          "titleImage": "",
+          "answers": ["none", "Protection", "Mechanism", "Security"],
+          "rightAnswer": ["Security", "Security"],
+          "hasDescription": true,
+          "image": ["OS/OSQ1.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "MicroKernels use ........... for communication.",
+          "titleImage": "",
+          "answers": [
+            "shared memory",
+            "virtualization",
+            "message passing",
+            "system calls"
+          ],
+          "rightAnswer": ["message passing", "message passing"],
+          "hasDescription": true,
+          "image": ["OS/OSQ2.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In which of the following models the operating system is responsible for creating a sufficient number of kernel threads.",
+          "titleImage": "",
+          "answers": [
+            "Tow-level",
+            "Many-to-Many",
+            "Many-to-one",
+            "One-to-Many"
+          ],
+          "rightAnswer": ["Many-to-Many", "Many-to-Many"],
+          "hasDescription": true,
+          "image": ["OS/OSQ3.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Which of the following schedulers could be used to reduce the degree of multiple programming?",
+          "titleImage": "",
+          "answers": [
+            "Short-term scheduler",
+            "Medium-term scheduler",
+            "Long-term scheduler",
+            "All of the given choices"
+          ],
+          "rightAnswer": ["Medium-term scheduler", "Medium-term scheduler"],
+          "hasDescription": true,
+          "image": ["OS/OSQ4.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "............ is/are not a technique for passing parameters from an application to a system call.",
+          "titleImage": "",
+          "answers": [
+            "cache memory",
+            "Special block in memory",
+            "registers",
+            "stake"
+          ],
+          "rightAnswer": ["cache memory", "cache memory"],
+          "hasDescription": true,
+          "image": ["OS/OSQ5.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Policy .............",
+          "titleImage": "",
+          "answers": [
+            "is not likely to change over time",
+            "determines how to do something",
+            "determines what will be done",
+            "is not likely to change across places"
+          ],
+          "rightAnswer": [
+            "determines what will be done",
+            "determines what will be done"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ6.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In terms of RPC, ........... handles the data representation.",
+          "titleImage": "",
+          "answers": ["XDL", "Socket", "Stub", "matchmaker"],
+          "rightAnswer": ["XDL", "XDL"],
+          "hasDescription": true,
+          "image": ["OS/OSQ7.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "The Processor will stop executing a certain process because of",
+          "titleImage": "",
+          "answers": [
+            "System call",
+            "program counter",
+            "Interrupt or System call",
+            "Interrupt"
+          ],
+          "rightAnswer": [
+            "Interrupt or System call",
+            "Interrupt or System call"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ46.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "When the process is just created, then it IS residing in ............",
+          "titleImage": "",
+          "answers": [
+            "Device queues",
+            "job queue",
+            "Ready queue",
+            "None of the given choices"
+          ],
+          "rightAnswer": ["job queue", "job queue"],
+          "hasDescription": true,
+          "image": ["OS/OSQ9.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "If the .............. is invoked infrequently, then the execution of the CPU will be affected",
+          "titleImage": "",
+          "answers": [
+            "Short-term scheduler",
+            "Medium-term scheduler",
+            "Long-term scheduler",
+            "All of the given choices"
+          ],
+          "rightAnswer": ["Short-term scheduler", "Short-term scheduler"],
+          "hasDescription": true,
+          "image": ["OS/OSQ10.jpg"],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "operating system نطم التشغيل",
+      "quiz-type": "english",
+      "quizName": "operating system mid 2",
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "In ........... state, the process is waiting for its turn to be executed by the CPU.",
+          "titleImage": "",
+          "answers": ["waiting", "ready", "running", "terminated"],
+          "rightAnswer": ["ready", "ready"],
+          "hasDescription": true,
+          "image": ["OS/OSQ11.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Which of the following statements is not correct about the single-threaded process",
+          "titleImage": "",
+          "answers": [
+            "It has one program counter",
+            "It allows continued execution if pan of the process is blocked",
+            "It cannot take advantage of multiprocessor architectures",
+            "None of the given choices"
+          ],
+          "rightAnswer": [
+            "It cannot take advantage of multiprocessor architectures",
+            "It cannot take advantage of multiprocessor architectures"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ48.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "The scheduler activation is used in the following models",
+          "titleImage": "",
+          "answers": [
+            "M:M and 1:1 models",
+            "M:M and M:1 models",
+            "M:M and Two-level models",
+            "1:1 and Two-level models"
+          ],
+          "rightAnswer": [
+            "M:M and Two-level models",
+            "M:M and Two-level models"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ13.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "The socket is",
+          "titleImage": "",
+          "answers": [
+            "Concatenation of MAC address and port",
+            "Concatenation of IP address and MAC address",
+            "Concatenation of IP address and port",
+            "All of the given choices"
+          ],
+          "rightAnswer": [
+            "Concatenation of IP address and port",
+            "Concatenation of IP address and port"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ14.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In ........... multithreading model, one thread blocking causes all to block",
+          "titleImage": "",
+          "answers": [
+            "One-to-Many",
+            "Two-level",
+            "Many-to-One",
+            "Many-to-Many"
+          ],
+          "rightAnswer": ["Many-to-One", "Many-to-One"],
+          "hasDescription": true,
+          "image": ["OS/OSQ15.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In ..............., two or more hoste are running applicatinos and are monitoring each other.",
+          "titleImage": "",
+          "answers": [
+            "symmetric clustering",
+            "asymmetric clustering",
+            "symmetric clustering and asymmetric clustering",
+            "none"
+          ],
+          "rightAnswer": ["symmetric clustering", "symmetric clustering"],
+          "hasDescription": true,
+          "image": ["OS/OSQ16.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "A clustered system",
+          "titleImage": "",
+          "answers": [
+            "is used when rigid time requirements are present",
+            "gathers together multiple CPUs to accomplish computational work",
+            "can only operate one application at a time",
+            "is an operating system that provides file sharing across a network"
+          ],
+          "rightAnswer": [
+            "gathers together multiple CPUs to accomplish computational work",
+            "gathers together multiple CPUs to accomplish computational work"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ47.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "............. is defined as an endpoint for communication",
+          "titleImage": "",
+          "answers": [
+            "IP address",
+            "socket",
+            "port",
+            "None of the given choices"
+          ],
+          "rightAnswer": ["socket", "socket"],
+          "hasDescription": true,
+          "image": ["OS/OSQ18.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Sometimes it is the only scheduler in a system",
+          "titleImage": "",
+          "answers": [
+            "Job scheduler",
+            "Long-term scheduler",
+            "Short-term scheduler",
+            "All of the given choices"
+          ],
+          "rightAnswer": ["Short-term scheduler", "Short-term scheduler"],
+          "hasDescription": true,
+          "image": ["OS/OSQ19.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Process Control Block(PCB) is also called",
+          "titleImage": "",
+          "answers": [
+            "Task control block",
+            "Register Control Block",
+            "CPU control block",
+            "None of the given choices"
+          ],
+          "rightAnswer": ["Task control block", "Task control block"],
+          "hasDescription": true,
+          "image": ["OS/OSQ20.jpg"],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "operating system نطم التشغيل",
+      "quiz-type": "english",
+      "quizName": "operating system mid 3",
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "Process local variables are stored in",
+          "titleImage": "",
+          "answers": ["Stack", "Data section", "Program counter", "Heap"],
+          "rightAnswer": ["Stack", "Stack"],
+          "hasDescription": true,
+          "image": ["OS/OSQ26.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "............... allow operating system services to be loaded dynamically.",
+          "titleImage": "",
+          "answers": [
+            "Modules",
+            "File Systems",
+            "Virtual machines",
+            "Graphical user interfaces"
+          ],
+          "rightAnswer": ["Modules", "Modules"],
+          "hasDescription": true,
+          "image": ["OS/OSQ49.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Usually process identified and managed via",
+          "titleImage": "",
+          "answers": [
+            "Process priority",
+            "Process name",
+            "Process identifier",
+            "All of the given choices"
+          ],
+          "rightAnswer": ["Process identifier", "Process identifier"],
+          "hasDescription": true,
+          "image": ["OS/OSQ28.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Data section in the process contins",
+          "titleImage": "",
+          "answers": [
+            "Local variables",
+            "Global variables",
+            "Function parameters",
+            "All of the given choices"
+          ],
+          "rightAnswer": ["Global variables", "Global variables"],
+          "hasDescription": true,
+          "image": ["OS/OSQ29.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Process executes last statement and the asks the operating system to delete it using the ............ system call",
+          "titleImage": "",
+          "answers": ["exit()", "abort()", "fork()", "wait()"],
+          "rightAnswer": ["exit()", "exit()"],
+          "hasDescription": true,
+          "image": ["OS/OSQ30.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "send(message) is an operation that belongs to",
+          "titleImage": "",
+          "answers": [
+            "Message Passing",
+            "Ordinary Pipes",
+            "Named Pipes",
+            "Shared Memory"
+          ],
+          "rightAnswer": ["Message Passing", "Message Passing"],
+          "hasDescription": true,
+          "image": ["OS/OSQ31.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "The bounded buffer problem is also known as",
+          "titleImage": "",
+          "answers": [
+            "Readers - Writers problem",
+            "Dining - Philosophers problem",
+            "Producer - Consumer problem",
+            "None of the given choices"
+          ],
+          "rightAnswer": [
+            "Producer - Consumer problem",
+            "Producer - Consumer problem"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ32.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In order inform the CPU that an I/O operation has finished, the device controller issues",
+          "titleImage": "",
+          "answers": ["System call", "Hardware interrupt", "Trap", "Exception"],
+          "rightAnswer": ["Hardware interrupt", "Hardware interrupt"],
+          "hasDescription": true,
+          "image": ["OS/OSQ33.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Which of the following is not process control system call",
+          "titleImage": "",
+          "answers": ["Abort", "Create", "Read", "Load"],
+          "rightAnswer": ["Read", "Read"],
+          "hasDescription": true,
+          "image": ["OS/OSQ36.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "MAC OS X structure is:",
+          "titleImage": "",
+          "answers": [
+            "Monolithic, modular approaches",
+            "Monolithic, microkernel approaches",
+            "Layered, microkernel, loadable modules approaches",
+            "None of the given choices"
+          ],
+          "rightAnswer": [
+            "Layered, microkernel, loadable modules approaches",
+            "Layered, microkernel, loadable modules approaches"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ50.jpg"],
+          "text": [
+            "السؤال أجا فاينل في أحد الفصول",
+            "أذا ما مر عليك الموضوع بالسلايدات تأكد من الدكتور أذا داخل"
+          ]
+        }
+      ]
+    },
+    {
+      "materialName": "operating system نطم التشغيل",
+      "quiz-type": "english",
+      "quizName": "operating system mid 4",
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "In terms of Direct Communication, the link is usually unidirectional, but may be bi-directional",
+          "titleImage": "",
+
+          "answers": ["False", "True"],
+          "rightAnswer": ["False", "False"],
+          "hasDescription": true,
+          "image": ["OS/OSQ21.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "A trap is a software-generated interrupt caused by an error or a user request",
+          "titleImage": "",
+
+          "answers": ["False", "True"],
+          "rightAnswer": ["True", "True"],
+          "hasDescription": true,
+          "image": ["OS/OSQ22.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In DMA, only one interrupt is generated per block, rather than the one interrupt per byte",
+          "titleImage": "",
+
+          "answers": ["False", "True"],
+          "rightAnswer": ["True", "True"],
+          "hasDescription": true,
+          "image": ["OS/OSQ23.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "System calls can be run in either user mode or kernel mode.",
+          "titleImage": "",
+
+          "answers": ["False", "True"],
+          "rightAnswer": ["False", "False"],
+          "hasDescription": true,
+          "image": ["OS/OSQ24.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Only the processes that have parent-child relationship can communicate using named pipes",
+          "titleImage": "",
+
+          "answers": ["False", "True"],
+          "rightAnswer": ["False", "False"],
+          "hasDescription": true,
+          "image": ["OS/OSQ25.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Dual-mode operation allows OS to protect itself and other system components",
+          "titleImage": "",
+
+          "answers": ["True", "False"],
+          "rightAnswer": ["True", "True"],
+          "hasDescription": true,
+          "image": ["OS/OSQ27.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "A system call is triggered by hardware",
+          "titleImage": "",
+
+          "answers": ["True", "False"],
+          "rightAnswer": ["False", "False"],
+          "hasDescription": true,
+          "image": ["OS/OSQ51.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Socket is a combination between the IP address and the port number",
+          "titleImage": "",
+
+          "answers": ["True", "False"],
+          "rightAnswer": ["True", "True"],
+          "hasDescription": true,
+          "image": ["OS/OSQ39.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Threads are cheaper to create than processes",
+          "titleImage": "",
+
+          "answers": ["True", "False"],
+          "rightAnswer": ["True", "True"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "A traditional (or heavyweight) process has a single thread of control.",
+          "titleImage": "",
+
+          "answers": ["True", "False"],
+          "rightAnswer": ["True", "True"],
+          "hasDescription": true,
+          "image": ["OS/OSQ45.jpg"],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "operating system نطم التشغيل",
+      "quiz-type": "english",
+      "quizName": "operating system mid 5",
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "Which of the following causes the operating system to kernel mode",
+          "titleImage": "",
+          "answers": [
+            "Division by zero",
+            "A system call",
+            "Timer out",
+            "I/O interrupt",
+            "All of the given choices"
+          ],
+          "rightAnswer": [
+            "All of the given choices",
+            "All of the given choices"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ52.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In Direct Memory Access structure",
+          "titleImage": "",
+          "answers": [
+            "No CPU intervention",
+            "One interrupt is generated per block",
+            "Used for high speed I/O devices",
+            "A and C",
+            "All of the given choices"
+          ],
+          "rightAnswer": [
+            "All of the given choices",
+            "All of the given choices"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ34.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "The selection of one process from the ready queue to be executed is called?",
+          "titleImage": "",
+          "answers": [
+            "Long-term scheduling",
+            "Short-term scheduling",
+            "Medium-term scheduling",
+            "Batching",
+            "None of the given choices"
+          ],
+          "rightAnswer": ["Short-term scheduling", "Short-term scheduling"],
+          "hasDescription": true,
+          "image": ["OS/OSQ37.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "If the process is waiting to be assigned to a processor, then it is in the ............. State",
+          "titleImage": "",
+          "answers": [
+            "New",
+            "wait",
+            "ready",
+            "B or C",
+            "None of the given choices"
+          ],
+          "rightAnswer": ["ready", "ready"],
+          "hasDescription": true,
+          "image": ["OS/OSQ38.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Passing system call parameters using the following method(s) limits the number of parameters",
+          "titleImage": "",
+          "answers": ["Registers", "Block", "Table", "Stack", "B and C"],
+          "rightAnswer": ["Registers", "Registers"],
+          "hasDescription": true,
+          "image": ["OS/OSQ40.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Which of the following is/are of the advantages of microkernel operating system?",
+          "titleImage": "",
+          "answers": [
+            "Extendibility (قابل للتمدد)",
+            "Portability (قابل للتنقل)",
+            "Reliability (مصداقية)",
+            "security",
+            "All of the given choices"
+          ],
+          "rightAnswer": [
+            "All of the given choices",
+            "All of the given choices"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ41.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Suppose that a process is in “Blocked” state waiting for some I/O service. When the service is completed, it goes to the :",
+          "titleImage": "",
+          "answers": [
+            "Running state",
+            "Ready state",
+            "Suspended state",
+            "Terminated state",
+            "None of the given choices"
+          ],
+          "rightAnswer": ["Ready state", "Ready state"],
+          "hasDescription": true,
+          "image": ["OS/OSQ42.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Which process can affect or be affected by other processes executing in the system?",
+          "titleImage": "",
+          "answers": [
+            "cooperating process",
+            "child process",
+            "parent process",
+            "init process",
+            "None of the given choices"
+          ],
+          "rightAnswer": ["cooperating process", "cooperating process"],
+          "hasDescription": true,
+          "image": ["OS/OSQ43.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Thread is a",
+          "titleImage": "",
+          "answers": [
+            "Light weight process",
+            "Heavy weight process",
+            "Multi process",
+            "I/O process",
+            "None of the given choices"
+          ],
+          "rightAnswer": ["Light weight process", "Light weight process"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "Which of the following is the main function of the command interpreter?",
+          "titleImage": "",
+          "answers": [
+            "to handle the files in the operating system",
+            "to provide the interface between the API and application program",
+            "to get and execute the next user-specified command",
+            "None of the given choices",
+            "All of the given choices"
+          ],
+          "rightAnswer": [
+            "to get and execute the next user-specified command",
+            "to get and execute the next user-specified command"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ44.jpg"],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "operating system نطم التشغيل",
+      "quiz-type": "english",
+      "quizName": "operating system final 1",
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "A(n) .................. IS a sequence of read-write operations that are atomic.",
+          "titleImage": "",
+          "answers": [
+            "semaphore",
+            "atomic integer",
+            "mutex lock",
+            "memory transaction"
+          ],
+          "rightAnswer": ["memory transaction", "memory transaction"],
+          "hasDescription": true,
+          "image": ["Os/OSQ53.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "A(n) ............... refers to where a process is accessing/updating snared data",
+          "titleImage": "",
+          "answers": [
+            "mutex",
+            "ctitical section",
+            "test-and-set",
+            "entry section"
+          ],
+          "rightAnswer": ["ctitical section", "ctitical section"],
+          "hasDescription": true,
+          "image": ["OS/OSQ54.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "Consider a system with 3 processes, and 3 resources each with 1 Instance. If the resource allocation graph for this system has a cycle, then:",
+          "titleImage": "",
+          "answers": [
+            "None of the above",
+            "The system may be in a deadlock state",
+            "They system in not in a deadlock state",
+            "The system is in a deadlock state"
+          ],
+          "rightAnswer": [
+            "The system is in a deadlock state",
+            "The system is in a deadlock state"
+          ],
+          "hasDescription": true,
+          "image": ["OS/OSQ55.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In term of bounded buffer, if (full) variable needs to be decremented by one, then appropriate function is",
+          "titleImage": "",
+          "answers": ["Wait()", "Signal()", "None of the given choices"],
+          "rightAnswer": ["Wait()", "Wait()"],
+          "hasDescription": true,
+          "image": ["OS/OSQ56.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In terms of Peterson's Solution, Pi can enter its critical section if",
+          "titleImage": "",
+          "answers": [
+            "flag[j] = True",
+            "turn = i",
+            "turn = j",
+            "All of the given choices"
+          ],
+          "rightAnswer": ["turn = i", "turn = i"],
+          "hasDescription": true,
+          "image": ["OS/OSQ57.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In terms of semaphore, busy waiting will occur if:",
+          "titleImage": "",
+          "answers": ["S > 0", "None of the given choices", "S <= 0"],
+          "rightAnswer": ["S <= 0", "S <= 0"],
+          "hasDescription": true,
+          "image": ["OS/OSQ58.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "When a process enters its critical section: it must set the LOCK value to ............ to prevent other processes from entering their critical sections.",
+          "titleImage": "",
+          "answers": ["True", "False"],
+          "rightAnswer": ["True", "True"],
+          "hasDescription": true,
+          "image": ["OS/OSQ59.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "When a process enters its critical section, no other processes can enter their critical sections: this is called.",
+          "titleImage": "",
+          "answers": [
+            "Progress",
+            "Bounded Waiting",
+            "Mutual Exclusion",
+            "preemption"
+          ],
+          "rightAnswer": ["Mutual Exclusion", "Mutual Exclusion"],
+          "hasDescription": true,
+          "image": ["OS/OSQ60.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "When a process wants to enter its critical section, it has to ask for permission in",
+          "titleImage": "",
+          "answers": [
+            "Entry section",
+            "None of the given choices",
+            "Exit section",
+            "Remainder section"
+          ],
+          "rightAnswer": ["Entry section", "Entry section"],
+          "hasDescription": true,
+          "image": ["OS/OSQ61.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "In terms of reader process, it (read_count == 1):",
+          "titleImage": "",
+          "answers": [
+            "Will not allow other readers to perform reading",
+            "Will not allow other writers to perform writing",
+            "Will allow other readers to perform reading",
+            "Will allow other writers to perform writing"
+          ],
+          "rightAnswer": [
+            "Will allow other readers to perform reading",
+            "Will allow other readers to perform reading"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "operating system نطم التشغيل",
+      "quiz-type": "english",
+      "quizName": "operating system final 2",
+      "alert": [
+        {
+          "type": "warning",
+          "text": "These questions have been answered based on my understanding of the material. If you are in doubt about a question, go back to the teacher to ensure the correct answer."
+        }
+      ],
+      "quiz-data": [
+        {
+          "titleText": "A set of processes A, B, C and D, are scheduled using preemptive priority scheduling algorithm. For each process, burst time, arrival time and the priority are assigned In the following table. Based on these values answer the following 6 questions:",
+          "titleImage": "OS/OSSCQ1.jpg",
+
+          "answers": [],
+          "rightAnswer": [],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "The process(es) that hashave a waiting time equals zero is:",
+          "titleImage": "",
+          "answers": ["C", "A and C", "B and C", "A", "B"],
+          "rightAnswer": ["C", "C"],
+          "hasDescription": true,
+          "image": ["OS/OSSCQ1A.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "The waiting time of process (A) equals:",
+          "titleImage": "",
+          "answers": ["9", "None of the above", "10", "2", "11"],
+          "rightAnswer": ["9", "9"],
+          "hasDescription": true,
+          "image": ["OS/OSSCQ1B.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "The last executed process finishes at time.",
+          "titleImage": "",
+          "answers": ["17", "12", "14", "11", "13"],
+          "rightAnswer": ["17", "17"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "Processes are scheduled on the CPU in the order:",
+          "titleImage": "",
+          "answers": [
+            "A B C A B D",
+            "A B C B D",
+            "A B C B A D",
+            "A B C D",
+            "None of the above"
+          ],
+          "rightAnswer": ["A B C B A D", "A B C B A D"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "The number of pre-emptions:",
+          "titleImage": "",
+          "answers": ["3", "1", "4", "2", "0"],
+          "rightAnswer": ["2", "2"],
+          "hasDescription": true,
+          "image": ["OS/OSSCQ1D.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "CPU is idle at the interval time:",
+          "titleImage": "",
+          "answers": [
+            "4-5",
+            "5-6",
+            "7-8",
+            "6-7",
+            "CPU has always a process to excute"
+          ],
+          "rightAnswer": [
+            "CPU has always a process to excute",
+            "CPU has always a process to excute"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "operating system نطم التشغيل",
+      "quiz-type": "english",
+      "quizName": "operating system final 3",
+      "alert": [
+        {
+          "type": "warning",
+          "text": "These questions have been answered based on my understanding of the material. If you are in doubt about a question, go back to the teacher to ensure the correct answer."
+        }
+      ],
+      "quiz-data": [
+        {
+          "titleText": "Consider the following snapshot of a system and answer the following four questions",
+          "titleImage": "OS/OSSCQ2.jpg",
+
+          "answers": [],
+          "rightAnswer": [],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "What is the total number of A B and C respectively?",
+          "titleImage": "",
+          "answers": ["10, 10, 0", "10, 8, 3", "11, 12, 3", "11, 11, 3"],
+          "rightAnswer": ["11, 12, 3", "11, 12, 3"],
+          "hasDescription": true,
+          "image": ["OS/OSSCQ2A.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "which of the following processes is a deadlocked process?",
+          "titleImage": "",
+          "answers": ["P0", "P2", "P4", "P1", "no deadlock"],
+          "rightAnswer": ["P1", "P1"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["تأكد من الدكتور "]
+        },
+        {
+          "titleText": "What is the content of the Need matrix tor process P1:",
+          "titleImage": "",
+          "answers": ["(1, 0, 2)", "(2, 1, 2)", "(2, 2, 1)", "(2, 6, 2)"],
+          "rightAnswer": ["(1, 0, 2)", "(1, 0, 2)"],
+          "hasDescription": true,
+          "image": ["OS/OSSCQ2C.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "It P1 requests additional resources (1, 1, 3) of (A, B, C) respectively. Then:",
+          "titleImage": "",
+          "answers": [
+            "The request could not be granted since it leaves the system in an unsafe state",
+            "The process should wait since the resources are not available",
+            "The request could be granted since it leaves the system in a safe state",
+            "The system will raise an error condition since it exceeds the need of P1"
+          ],
+          "rightAnswer": ["", ""],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "لا أعرف الاجابة",
+            "لقد تم وضع السؤال لشمول السؤال بجميع افرعه "
+          ]
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "materialName": "برمجة تطبيقات الانترنت web",
+      "quiz-type": "english",
+      "quizName": "web mid 1",
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "the html code which gives the following output is:",
+          "titleImage": "web/q1.jpg",
+          "answers": [
+            "20&lt;meter min='0' max ='100' value='5'&gt;&lt/meter&gt;100",
+            "0&lt;meter min='2' max ='10' value='5'&gt;&lt/meter&gt;100",
+            "20&lt;meter min='2' max ='10' value='5'&gt;&lt/meter&gt;100",
+            "20&lt;meter min='2' max ='10' value='2'&gt;&lt/meter&gt;100"
+          ],
+          "rightAnswer": [
+            "20&lt;meter min='2' max ='10' value='5'&gt;&lt/meter&gt;100",
+            "20<meter min='2' max ='10' value='5'></meter>100"
+          ],
+          "hasDescription": true,
+          "image": ["web/a1.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "tho following URL \"validator.w3.org/#validate-by-upload\" is used for",
+          "titleImage": "",
+          "answers": [
+            "Rendering the output of the HTML document",
+            "correcting the errors in HTML document",
+            "Checking the syntax of the css rules",
+            "to ensure that an HTML5 document is syntactically correct"
+          ],
+          "rightAnswer": [
+            "to ensure that an HTML5 document is syntactically correct",
+            "to ensure that an HTML5 document is syntactically correct"
+          ],
+          "hasDescription": true,
+          "image": ["web/a2.jpg"],
+          "text": ["chapter 2"]
+        },
+        {
+          "titleText": "given the CSS rule below, which of the following would have the color red? <br> <br> .fav {color: red}",
+          "titleImage": "",
+          "answers": [
+            "&lt;p&gt;some text&lt;/p&gt;",
+            "&lt;div id=\"fav\"&gt;some text&lt;/div&gt;",
+            "&lt;div class=\"fav\"&gt;some text&lt;/div&gt;",
+            "&lt;p&gt;.fav&lt;/p&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;div class=\"fav\"&gt;some text&lt;/div&gt;",
+            "<div class=\"fav\">some text</div>"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "to select elements in css have class=\"className\" must use .className, the dot use with class",
+            "to make the first option correct the css rule must be p{color:red}",
+            "to make the second option correct the css rule must be #fav{color:red}, the hash symbol use with id",
+            "to make the last option correct the css rule must be p{color:red}, here .fas is a text not tag attributes"
+          ]
+        },
+        {
+          "titleText": "to link external style sheet file named myfavourite.css, we type in the head",
+          "titleImage": "",
+          "answers": [
+            "&lt;link rel=\"myfavourite.css\"&gt;",
+            "&lt;link stylesheet=\"myfavourite.css\"&gt;",
+            "&lt;link=\"myfavourite.css;\"&gt;",
+            "&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"myfavourite.css\"&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"myfavourite.css\"&gt;",
+            "<link rel=\"stylesheet\" type=\"text/css\" href=\"myfavourite.css\">"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "just make sure the rel=\"stylesheet\" and href=\"fileName.css\", that's the right way to link external css file"
+          ]
+        },
+        {
+          "titleText": "To insert an image x.jpg of 200px width and 100px height in HTML document, we type",
+          "titleImage": "",
+          "answers": [
+            "&lt;img href=\"x.jpg\" height=\"100\" width=\"200\"&gt;",
+            "&lt;img src=\"x.jpg\" height=\"100\" width=\"200\"&gt;",
+            "&lt;img=\"x.jpg\" height=\"100\" width=\"200\"&gt;",
+            "&lt;img http=\"x.jpg\" height=\"100\" width=\"200\"&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;img src=\"x.jpg\" height=\"100\" width=\"200\"&gt;",
+            "<img src=\"x.jpg\" height=\"100\" width=\"200\">"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The src attribute contains a URL pointing to the image you want to embed in the page"
+          ]
+        },
+        {
+          "titleText": "the html code which gives the following output is:",
+          "titleImage": "web/q6.jpg",
+          "answers": [
+            "&lt;p&gt;I am a &lt;span style=\"position: relative; top: -2ex; color: blue;\"&gt;fourth year &lt;/span&gt;student at Hashemite University&lt;/p&gt;",
+            "&lt;p&gt;I am a &lt;span style=\"position: relative; bottom: -2ex; color: blue;\"&gt;fourth year &lt;/span&gt;student at Hashemite University&lt;/p&gt;",
+            "&lt;p&gt;I am a fourth year &lt;/span&gt;student at Hashemite University&lt;/p&gt;",
+            "&lt;p style=\"position: relative; bottom: -2ex; color: blue;\"&gt;fourth year student at Hashemite University&lt;/p&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;p&gt;I am a &lt;span style=\"position: relative; bottom: -2ex; color: blue;\"&gt;fourth year &lt;/span&gt;student at Hashemite University&lt;/p&gt;",
+            "<p>I am a <span style=\"position: relative; bottom: -2ex; color: blue;\">fourth year </span>student at Hashemite University</p>"
+          ],
+          "hasDescription": true,
+          "image": ["web/a6.jpg"],
+          "text": [
+            "top:positive value or bottom:negative value make the element go dowm "
+          ]
+        },
+        {
+          "titleText": "given the following css and html fragments, one of the following is true.",
+          "titleImage": "web/q7.jpg",
+          "answers": [
+            "Hello is blue, goodbye is red",
+            "Hello is blue, goodbye is green",
+            "Hello is red, goodbye is red",
+            "Hello is red, goodbye is green"
+          ],
+          "rightAnswer": [
+            "Hello is red, goodbye is green",
+            "Hello is red, goodbye is green"
+          ],
+          "hasDescription": true,
+          "image": ["web/a7.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "the html code which makes the link to the text \"Hashemite university\" is: ",
+          "titleImage": "",
+          "answers": [
+            "&lt;http a=\"https://www.hu.edu.jo\"&gt; Hashemite unversity &lt;/a&gt;",
+            "&lt;a href=\"https://www.hu.edu.jo\"&gt; Hashemite unversity &lt;/a&gt;",
+            "&lt;a href=\"Hashemite unversity\"&gt; https://www.hu.edu.jo &lt;/a&gt;",
+            "&lt;a src=\"https://www.hu.edu.jo\"&gt; Hashemite unversity &lt;/a&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;a href=\"https://www.hu.edu.jo\"&gt; Hashemite unversity &lt;/a&gt;",
+            "<a href=\"https://www.hu.edu.jo\"> Hashemite unversity </a>"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The href attribute specifies the URL of the page the link goes to",
+            "If the href attribute is not present, the &lt;a&gt; tag will not be a hyperlink"
+          ]
+        },
+        {
+          "titleText": "given the CSS rule below, which of the following text will apply this rule <br> <br> div p {background-color: #555555}",
+          "titleImage": "",
+          "answers": [
+            "&lt;div&gt; Corona virus is gone &lt;/div&gt;",
+            "&lt;p&gt;&lt;div&gt; Corona virus is gone &lt;/div&gt;&lt;/p&gt;",
+            "&lt;div&gt;&lt;p&gt; Corona virus is gone &lt;/p&gt;&lt;/div&gt;",
+            "&lt;p&gt; Corona virus is gone &lt;/p&gt;",
+            "B and C",
+            "All of the given choices"
+          ],
+          "rightAnswer": [
+            "&lt;div&gt;&lt;p&gt; Corona virus is gone &lt;/p&gt;&lt;/div&gt;",
+            "<div><p> Corona virus is gone </p></div>"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": ["the rule will be applied for all p element children of div"]
+        },
+        {
+          "titleText": "what does the following code do <br><br> p {font-family:arial, helvetica;}",
+          "titleImage": "",
+          "answers": [
+            "it tells the browser to use both fonts every time",
+            "it tells the browser to use arial font always",
+            "it tells the browser to use any font but not arial of helvetica",
+            "it tells the browser to use helvetica if arial is not present"
+          ],
+          "rightAnswer": [
+            "it tells the browser to use helvetica if arial is not present",
+            "it tells the browser to use helvetica if arial is not present"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "برمجة تطبيقات الانترنت web",
+      "quiz-type": "english",
+      "quizName": "web mid 2",
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "the &lt;title&gt; tag is used to",
+          "titleImage": "",
+          "answers": [
+            "there is no tag in html called &lt;title&gt;",
+            "give information about the table contents that help search engines finding the web page",
+            "display a title of the web page that appears in the first row of the page contents",
+            "display a title of the web page in the browser toolbar"
+          ],
+          "rightAnswer": [
+            "display a title of the web page in the browser toolbar",
+            "display a title of the web page in the browser toolbar"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "the html code which gives the following output is:",
+          "titleImage": "web/q12.jpg",
+          "answers": [
+            "&lt;p&gt;Time: &lt;label&gt;&lt;input type=\"datetime-local\"&gt; dd/mm/yyyy hh:mm(AM/PM)&lt;/label&gt;&lt;/p&gt;",
+            "&lt;p&gt;Time: &lt;label&gt;&lt;input type=\"datetime\"&gt; dd/mm/yyyy hh:mm(AM/PM)&lt;/label&gt;&lt;/p&gt;",
+            "&lt;p&gt;Time: &lt;label&gt;&lt;input type=\"time\"&gt; dd/mm/yyyy hh:mm(AM/PM)&lt;/label&gt;&lt;/p&gt;",
+            "&lt;p&gt;Time: &lt;label&gt;&lt;input type=\"date\"&gt; dd/mm/yyyy hh:mm(AM/PM)&lt;/label&gt;&lt;/p&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;p&gt;Time: &lt;label&gt;&lt;input type=\"datetime-local\"&gt; dd/mm/yyyy hh:mm(AM/PM)&lt;/label&gt;&lt;/p&gt;",
+            "<p>Time: <label><input type=\"datetime-local\"> dd/mm/yyyy hh:mm(AM/PM)</label></p>"
+          ],
+          "hasDescription": true,
+          "image": ["web/a12.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "the html code which gives the following output is:",
+          "titleImage": "web/q13.jpg",
+          "answers": [
+            "&lt;form&gt; &lt;p&gt; &lt;label&gt; Name: &lt;input name=\"x\" type=\"button\"&gt; &lt;/label&gt; &lt;/p&gt; &lt;/form&gt;",
+            "&lt;form&gt; &lt;p&gt; &lt;label&gt; Name: &lt;input name=\"x\" type=\"text\"&gt; &lt;/label&gt; &lt;/p&gt; &lt;/form&gt;",
+            "&lt;form&gt; &lt;p&gt; &lt;label&gt; Name: &lt;input name=\"x\" type=\"name\"&gt; &lt;/label&gt; &lt;/p&gt; &lt;/form&gt;",
+            "&lt;form&gt; &lt;p&gt; &lt;label&gt;&lt;input name=\"x\" type=\"text\"&gt; &lt;/label&gt; &lt;/p&gt; &lt;/form&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;form&gt; &lt;p&gt; &lt;label&gt; Name: &lt;input name=\"x\" type=\"text\"&gt; &lt;/label&gt; &lt;/p&gt; &lt;/form&gt;",
+            "<form> <p> <label> Name: <input name=\"x\" type=\"text\"> </label> </p> </form>"
+          ],
+          "hasDescription": true,
+          "image": ["web/a13.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "the html code which gives the following output is:",
+          "titleImage": "web/q14.jpg",
+          "answers": [
+            "&lt;a style=\"text-decoration:underline; color:red\" href=\"wadi-alrayan.com\"&gt;Wadi Al-Rayan&lt;/a&gt;",
+            "&lt;a style=\"color:red\" href=\"wadi-alrayan.com\"&gt;Wadi Al-Rayan&lt;/a&gt;",
+            "&lt;a style=\"text-decoration:none; color:red\" href=\"wadi-alrayan.com\"&gt;Wadi Al-Rayan&lt;/a&gt;",
+            "&lt;a href=\"wadi-alrayan.com\"&gt;Wadi Al-Rayan&lt;/a&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;a style=\"text-decoration:none; color:red\" href=\"wadi-alrayan.com\"&gt;Wadi Al-Rayan&lt;/a&gt;",
+            "<a style=\"text-decoration:none; color:red\" href=\"wadi-alrayan.com\">Wadi Al-Rayan</a>"
+          ],
+          "hasDescription": true,
+          "image": ["web/a14.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "what is the correct css syntax for making all &lt;p&gt;>",
+          "titleImage": "",
+          "answers": [
+            "p { font: bold }",
+            "p { font-size: bold }",
+            "p { font-weight: bold }",
+            "p { font-style: bold }"
+          ],
+          "rightAnswer": ["p { font-weight: bold }", "p { font-weight: bold }"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The font (كلام مش مهم لا تقرأ) property is a shorthand property for: font-style, font-variant, font-weight, font-size/line-height, font-family, (you must set two value before bold value and then write font weight to apply bold on it)",
+            "font-size to change font size -_-",
+            "font-weight to change weight of font like (bold, normal, ...) = (700, 400, ...)",
+            "font-style The font-style property specifies the font style for a text like (italic {مائل})"
+          ]
+        },
+        {
+          "titleText": "given the CSS rule,<br> h1.x { color: red; font-size: 20pt} <br> which section applies this rule",
+          "titleImage": "",
+          "answers": [
+            "&lt;h1&gt; I love web prog. &lt;/h1&gt;",
+            "&lt;h1 style=\"x\" &gt; I love web prog. &lt;/h1&gt;",
+            "&lt;h1 class=\"x\" &gt; I love web prog. &lt;/h1&gt;",
+            "&lt;h1 style=\"special\" &gt; I love web prog. &lt;/h1&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;h1 class=\"x\" &gt; I love web prog. &lt;/h1&gt;",
+            "<h1 class=\"x\" > I love web prog. </h1>"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": ["h1.x select all h1 have class = 'x' "]
+        },
+        {
+          "titleText": "the html code which gives the following output is: <br><br>windows ® is registered trade mark",
+          "titleImage": "",
+          "answers": [
+            "&lt;p&gt; windows & trade; is registered trade mark &lt;/p&gt;",
+            "&lt;p&gt; windows & copy; is registered trade mark &lt;/p&gt;",
+            "&lt;p&gt; windows & reg; is registered trade mark &lt;/p&gt;",
+            "&lt;p&gt; windows is registered trade mark &lt;/p&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;p&gt; windows & reg; is registered trade mark &lt;/p&gt;",
+            "<p> windows & reg; is registered trade mark </p>"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": ["& trade; => ™", "& copy; => ©"]
+        },
+        {
+          "titleText": "css stands for",
+          "titleImage": "",
+          "answers": [
+            "creative style sheets",
+            "computer style sheets",
+            "cascading style sheets",
+            "colorful style sheets"
+          ],
+          "rightAnswer": ["cascading style sheets", "cascading style sheets"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "what color will applied to the text of the em element in the following:<br><br>.text em {color: red}<br>em {color: blue}<br>h1 {color: green}<br>h1 em {color: black}<br>p em {color: yellow}",
+          "titleImage": "",
+          "answers": ["red", "green", "yellow", "blue", "black"],
+          "rightAnswer": ["yellow", "yellow"],
+          "hasDescription": true,
+          "image": ["web/a19.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "what does the following css rule mean:<br><br>a:hover {color: green}",
+          "titleImage": "",
+          "answers": [
+            "when the mouse cursor is over the link, the whole document font color becomes green",
+            "when the mouse cursor is over the link, the font color comes back to blue",
+            "when the mouse cursor is over the link, the font color becomes green",
+            "when the mouse cursor is over the link, the whole paragraph font color becomes green"
+          ],
+          "rightAnswer": [
+            "when the mouse cursor is over the link, the font color becomes green",
+            "when the mouse cursor is over the link, the font color becomes green"
+          ],
+          "hasDescription": true,
+          "video": [
+            {
+              "autoplay": true,
+              "control": false,
+              "muted": true,
+              "loop": true,
+              "src": "a20.mp4"
+            }
+          ],
+          "image": [],
+          "text": []
+        }
+      ]
+    }
+  ]
+]
