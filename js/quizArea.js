@@ -1,6 +1,16 @@
 $(function () {
   "use strict";
 
+  $(".header__list").on("click", function (e) {
+    if (e.target.classList.contains("add-material")) {
+      $(".popup-main").text("غير متوفر الأن");
+      $(".popup-main").fadeIn(150);
+      setTimeout(function () {
+        $(".popup-main").fadeOut(350);
+      }, 1000);
+    }
+  });
+
   let rightAnswers = 0;
   let wrongAnswers = 0;
 
@@ -214,7 +224,7 @@ $(function () {
 
         if (question.image.length > 0) {
           $(question.image).each(function (index, image) {
-            const descImage = `<img src="../img/${question.image[index]}" alt="image" class="quiz-data__image" />`;
+            const descImage = `<img src="../img/${question.image[index]}" alt="image" class="quiz-data__image" width="100%"/>`;
             $(".quiz-data__desc").last().append(descImage);
           });
         }

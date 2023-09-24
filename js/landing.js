@@ -11,6 +11,18 @@ $(function () {
 
   const sectionMaterials = document.querySelector(".section-materials");
 
+  const headerList = document.querySelectorAll(".header__list");
+
+  $(".header__list").on("click", function (e) {
+    if (e.target.classList.contains("add-material")) {
+      $(".popup-main").text("غير متوفر الأن");
+      $(".popup-main").fadeIn(150);
+      setTimeout(function () {
+        $(".popup-main").fadeOut(350);
+      }, 1000);
+    }
+  });
+
   //////////////
   /// MAKE HEADER STIKY WHEN REACH IN THE BOTTOM OF THE LANDING SECTION
   const stickyHeader = function (entries) {

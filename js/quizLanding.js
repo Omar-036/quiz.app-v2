@@ -1,7 +1,23 @@
 $(function () {
   ("use strict");
 
+  $(".header__list").on("click", function (e) {
+    if (e.target.classList.contains("add-material")) {
+      $(".popup-main").text("غير متوفر الأن");
+      $(".popup-main").fadeIn(150);
+      setTimeout(function () {
+        $(".popup-main").fadeOut(350);
+      }, 1000);
+    }
+  });
+
   $.getJSON("../json/quizLanding.json", function (data) {
+    if (
+      data[localStorage.getItem("quizIndex")]["materialQuizes"].length === 0
+    ) {
+      $(".not-found").show(0);
+    }
+
     $(document).prop(
       "title",
       "Test Bank | " +

@@ -46,17 +46,16 @@
       {
         "quizName": "mid 2",
         "quizDesc": ""
+      },
+      {
+        "quizName": "mid 3",
+        "quizDesc": ""
       }
     ]
   },
   {
     "materialName": "علوم عسكربة",
-    "materialQuizes": [
-      {
-        "quizName": "mid 2",
-        "quizDesc": ""
-      }
-    ]
+    "materialQuizes": []
   },
   {
     "materialName": "تربية وطنية",

@@ -1380,6 +1380,197 @@
           "text": []
         }
       ]
+    },
+    {
+      "materialName": "برمجة تطبيقات الانترنت web",
+      "quiz-type": "english",
+      "quizName": "web mid 3",
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "comments within html documents are enclosed within..............",
+          "titleImage": "web/q1.jpg",
+          "answers": ["/* and */", "//", "??", "&lt;!-- and --&gt;"],
+          "rightAnswer": ["&lt;!-- and --&gt;", "<!-- and -->"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "&lt;!-- and --&gt; => html comments",
+            "/* and */ => css comments and js",
+            "// => js comments"
+          ]
+        },
+        {
+          "titleText": "tho following URL \"validator.w3.org/#validate-by-upload\" is used for",
+          "titleImage": "",
+          "answers": [
+            "Rendering the output of the HTML document",
+            "correcting the errors in HTML document",
+            "Checking the syntax of the css rules",
+            "to ensure that an HTML5 document is syntactically correct"
+          ],
+          "rightAnswer": [
+            "to ensure that an HTML5 document is syntactically correct",
+            "to ensure that an HTML5 document is syntactically correct"
+          ],
+          "hasDescription": true,
+          "image": ["web/a2.jpg"],
+          "text": ["chapter 2"]
+        },
+        {
+          "titleText": "given the CSS rule below, which of the following would have the color red? <br> <br> .fav {color: red}",
+          "titleImage": "",
+          "answers": [
+            "&lt;p&gt;some text&lt;/p&gt;",
+            "&lt;div id=\"fav\"&gt;some text&lt;/div&gt;",
+            "&lt;div class=\"fav\"&gt;some text&lt;/div&gt;",
+            "&lt;p&gt;.fav&lt;/p&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;div class=\"fav\"&gt;some text&lt;/div&gt;",
+            "<div class=\"fav\">some text</div>"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "to select elements in css have class=\"className\" must use .className, the dot use with class",
+            "to make the first option correct the css rule must be p{color:red}",
+            "to make the second option correct the css rule must be #fav{color:red}, the hash symbol use with id",
+            "to make the last option correct the css rule must be p{color:red}, here .fas is a text not tag attributes"
+          ]
+        },
+        {
+          "titleText": "to link external style sheet file named myfavourite.css, we type in the head",
+          "titleImage": "",
+          "answers": [
+            "&lt;link rel=\"myfavourite.css\"&gt;",
+            "&lt;link stylesheet=\"myfavourite.css\"&gt;",
+            "&lt;link=\"myfavourite.css;\"&gt;",
+            "&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"myfavourite.css\"&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"myfavourite.css\"&gt;",
+            "<link rel=\"stylesheet\" type=\"text/css\" href=\"myfavourite.css\">"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "just make sure the rel=\"stylesheet\" and href=\"fileName.css\", that's the right way to link external css file"
+          ]
+        },
+        {
+          "titleText": "To insert an image x.jpg of 200px width and 100px height in HTML document, we type",
+          "titleImage": "",
+          "answers": [
+            "&lt;img href=\"x.jpg\" height=\"100\" width=\"200\"&gt;",
+            "&lt;img src=\"x.jpg\" height=\"100\" width=\"200\"&gt;",
+            "&lt;img=\"x.jpg\" height=\"100\" width=\"200\"&gt;",
+            "&lt;img http=\"x.jpg\" height=\"100\" width=\"200\"&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;img src=\"x.jpg\" height=\"100\" width=\"200\"&gt;",
+            "<img src=\"x.jpg\" height=\"100\" width=\"200\">"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The src attribute contains a URL pointing to the image you want to embed in the page"
+          ]
+        },
+        {
+          "titleText": "the html code which gives the following output is:",
+          "titleImage": "web/q6.jpg",
+          "answers": [
+            "&lt;p&gt;I am a &lt;span style=\"position: relative; top: -2ex; color: blue;\"&gt;fourth year &lt;/span&gt;student at Hashemite University&lt;/p&gt;",
+            "&lt;p&gt;I am a &lt;span style=\"position: relative; bottom: -2ex; color: blue;\"&gt;fourth year &lt;/span&gt;student at Hashemite University&lt;/p&gt;",
+            "&lt;p&gt;I am a fourth year &lt;/span&gt;student at Hashemite University&lt;/p&gt;",
+            "&lt;p style=\"position: relative; bottom: -2ex; color: blue;\"&gt;fourth year student at Hashemite University&lt;/p&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;p&gt;I am a &lt;span style=\"position: relative; bottom: -2ex; color: blue;\"&gt;fourth year &lt;/span&gt;student at Hashemite University&lt;/p&gt;",
+            "<p>I am a <span style=\"position: relative; bottom: -2ex; color: blue;\">fourth year </span>student at Hashemite University</p>"
+          ],
+          "hasDescription": true,
+          "image": ["web/a6.jpg"],
+          "text": [
+            "top:positive value or bottom:negative value make the element go dowm "
+          ]
+        },
+        {
+          "titleText": "given the following css and html fragments, one of the following is true.",
+          "titleImage": "web/q7.jpg",
+          "answers": [
+            "Hello is blue, goodbye is red",
+            "Hello is blue, goodbye is green",
+            "Hello is red, goodbye is red",
+            "Hello is red, goodbye is green"
+          ],
+          "rightAnswer": [
+            "Hello is red, goodbye is green",
+            "Hello is red, goodbye is green"
+          ],
+          "hasDescription": true,
+          "image": ["web/a7.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "the html code which makes the link to the text \"Hashemite university\" is: ",
+          "titleImage": "",
+          "answers": [
+            "&lt;http a=\"https://www.hu.edu.jo\"&gt; Hashemite unversity &lt;/a&gt;",
+            "&lt;a href=\"https://www.hu.edu.jo\"&gt; Hashemite unversity &lt;/a&gt;",
+            "&lt;a href=\"Hashemite unversity\"&gt; https://www.hu.edu.jo &lt;/a&gt;",
+            "&lt;a src=\"https://www.hu.edu.jo\"&gt; Hashemite unversity &lt;/a&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;a href=\"https://www.hu.edu.jo\"&gt; Hashemite unversity &lt;/a&gt;",
+            "<a href=\"https://www.hu.edu.jo\"> Hashemite unversity </a>"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The href attribute specifies the URL of the page the link goes to",
+            "If the href attribute is not present, the &lt;a&gt; tag will not be a hyperlink"
+          ]
+        },
+        {
+          "titleText": "given the CSS rule below, which of the following text will apply this rule <br> <br> div p {background-color: #555555}",
+          "titleImage": "",
+          "answers": [
+            "&lt;div&gt; Corona virus is gone &lt;/div&gt;",
+            "&lt;p&gt;&lt;div&gt; Corona virus is gone &lt;/div&gt;&lt;/p&gt;",
+            "&lt;div&gt;&lt;p&gt; Corona virus is gone &lt;/p&gt;&lt;/div&gt;",
+            "&lt;p&gt; Corona virus is gone &lt;/p&gt;",
+            "B and C",
+            "All of the given choices"
+          ],
+          "rightAnswer": [
+            "&lt;div&gt;&lt;p&gt; Corona virus is gone &lt;/p&gt;&lt;/div&gt;",
+            "<div><p> Corona virus is gone </p></div>"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": ["the rule will be applied for all p element children of div"]
+        },
+        {
+          "titleText": "what does the following code do <br><br> p {font-family:arial, helvetica;}",
+          "titleImage": "",
+          "answers": [
+            "it tells the browser to use both fonts every time",
+            "it tells the browser to use arial font always",
+            "it tells the browser to use any font but not arial of helvetica",
+            "it tells the browser to use helvetica if arial is not present"
+          ],
+          "rightAnswer": [
+            "it tells the browser to use helvetica if arial is not present",
+            "it tells the browser to use helvetica if arial is not present"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
     }
   ]
 ]

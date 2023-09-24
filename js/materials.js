@@ -69,13 +69,13 @@ $(function () {
 
       const materialObserver = new IntersectionObserver(revialMaterial, {
         root: null,
-        threshold: 0.12,
+        threshold: 0.08,
       });
 
       $(allMaterials).each((i, material) => {
         $(material)
           .not(".material-box--1")
-          .not(".material-box--2")
+
           .addClass("material-box--hidden");
 
         materialObserver.observe(material);

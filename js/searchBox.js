@@ -71,7 +71,6 @@ $(function () {
       numberOfMaterialHide
     ) {
       $(".not-found").show(speed);
-      console.log("test");
     }
   }
 

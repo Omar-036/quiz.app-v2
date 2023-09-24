@@ -24,6 +24,7 @@ $(function () {
       e.target.classList.value === "nav-icon open" ||
       e.target.classList.value === "nav-icon-span" ||
       e.target.classList.value === "header__link" ||
+      e.target.classList.value === "header__link add-material" ||
       e.target.classList.value === "copyright"
     )
       return;
