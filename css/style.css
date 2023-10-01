@@ -30,7 +30,7 @@ html {
   @media only screen and (max-width: 37.5em) {
     html {
       font-size: 37.5%; } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 18.75em) {
     html {
       font-size: 31.25%; } }
   html::-webkit-scrollbar {
@@ -275,7 +275,7 @@ img.active {
   grid-column: 1 / -1;
   width: 100%;
   max-width: 100rem;
-  margin: auto; }
+  margin: 0 auto; }
   .quiz__quiz-result {
     margin-top: 2rem;
     text-align: center;
@@ -306,6 +306,10 @@ img.active {
     padding: 0 3rem;
     display: flex;
     justify-content: space-between; }
+    @media only screen and (max-width: 400px) {
+      .quiz__next-step {
+        flex-direction: column;
+        row-gap: 3rem; } }
     .quiz__next-step a {
       text-decoration: none;
       text-transform: capitalize;
@@ -634,7 +638,7 @@ img.active {
   .show-more:hover {
     background-color: var(--color-grey-light-3); }
   .show-more.active {
-    color: purple; }
+    color: #f256f2; }
     .show-more.active .show-more--english {
       transform: rotate(90deg); }
     .show-more.active .show-more--arabic {
@@ -739,7 +743,7 @@ img.active {
   @media only screen and (max-width: 62.5em) {
     .quiz-box {
       flex-basis: calc(50% - 2rem); } }
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 18.75em) {
     .quiz-box {
       flex-basis: calc(100%); } }
   .quiz-box:hover {

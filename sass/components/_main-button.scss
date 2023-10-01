@@ -50,10 +50,8 @@
   font-family: inherit;
   margin-top: 2rem;
   animation: none;
-  // margin-bottom: 2rem;
   transition: 0.1s;
   display: none;
-  // color: purple;
 
   span {
     transition: 0.1s;
@@ -64,7 +62,7 @@
   }
 
   &.active {
-    color: purple;
+    color: rgb(242, 86, 242);
 
     .show-more--english {
       transform: rotate(90deg);

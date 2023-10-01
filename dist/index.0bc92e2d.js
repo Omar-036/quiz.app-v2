@@ -579,6 +579,13 @@ $(function() {
     // GLOBAL VARIABLES
     $.holdReady(true);
     const sectionMaterials = document.querySelector(".section-materials");
+    async function test() {
+        const res = await fetch("../json/materials.json");
+        console.log(res);
+        const data = await res.json();
+        console.log(data);
+    }
+    test();
     $.getJSON("../json/materials.json", function(data) {
         $(data.materials).each(function(index, materialInfo) {
             const material = `
@@ -616,7 +623,7 @@ $(function() {
             };
             const materialObserver = new IntersectionObserver(revialMaterial, {
                 root: null,
-                threshold: 0.08
+                threshold: 0.12
             });
             $(allMaterials).each((i, material)=>{
                 $(material).not(".material-box--1").addClass("material-box--hidden");

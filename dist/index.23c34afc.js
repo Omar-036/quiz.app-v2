@@ -40,7 +40,7 @@ $(function() {
             };
             const materialObserver = new IntersectionObserver(revialMaterial, {
                 root: null,
-                threshold: 0.08
+                threshold: 0.12
             });
             $(allMaterials).each((i, material)=>{
                 $(material).not(".material-box--1").addClass("material-box--hidden");
