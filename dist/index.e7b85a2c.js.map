@@ -1,0 +1,1 @@
+{"mappings":"AAAA,EAAE;IACC;AAED,mBAAmB;AACrB","sources":["js/header.js"],"sourcesContent":["$(function () {\n  (\"use strict\");\n\n  // GLOBAL VARIABLES\n});\n"],"names":[],"version":3,"file":"index.e7b85a2c.js.map","sourceRoot":"/__parcel_source_root/"}
