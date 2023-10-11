@@ -279,7 +279,7 @@ img.active {
   .quiz__quiz-result {
     margin-top: 2rem;
     text-align: center;
-    border-top: 1px solid purple;
+    border-top: 1px solid var(--color-primary-purple);
     padding: 4rem 3rem;
     display: none; }
     .quiz__quiz-result h3 {
@@ -638,7 +638,7 @@ img.active {
   .show-more:hover {
     background-color: var(--color-grey-light-3); }
   .show-more.active {
-    color: #f256f2; }
+    color: var(--color-primary-purple); }
     .show-more.active .show-more--english {
       transform: rotate(90deg); }
     .show-more.active .show-more--arabic {
@@ -772,7 +772,7 @@ img.active {
     gap: 2rem;
     margin-bottom: 2.5rem;
     padding-bottom: 4rem;
-    border-bottom: 1px solid purple; }
+    border-bottom: 1px solid var(--color-primary-purple); }
     .quiz-data__title--text {
       font-size: 2.5rem;
       line-height: 1.6; }

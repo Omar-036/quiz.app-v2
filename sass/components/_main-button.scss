@@ -13,7 +13,6 @@
   transition: all 0.1s;
   cursor: pointer;
   animation: moveUp 0.8s;
-
   &:hover {
     box-shadow: 0 1rem 2rem rgba(#000, 0.1);
     transform: translateY(-2px);
@@ -62,7 +61,7 @@
   }
 
   &.active {
-    color: rgb(242, 86, 242);
+    color: var(--color-primary-purple);
 
     .show-more--english {
       transform: rotate(90deg);
