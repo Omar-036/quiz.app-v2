@@ -10,7 +10,9 @@ $(function () {
   $.getJSON("../json/materials.json", function (data) {
     $(data.materials).each(function (index, materialInfo) {
       const material = `
-      <div class="material-box material-box--${index + 1} "
+      <div class="material-box material-box--${index + 1} " data-names="${
+        materialInfo["data-names"]
+      }"
       style="background-image:linear-gradient(to left, rgba(#000, 0.6), rgba(#000, 0.4)), url(img/${
         materialInfo.img
       })">
@@ -74,10 +76,8 @@ $(function () {
 
       $(allMaterials).each((i, material) => {
         $(material)
-          .not(".material-box--1")
-          .not(".material-box--2")
-          .not(".material-box--3")
-
+          ?.not(".material-box--1")
+          ?.not(".material-box--2")
           .addClass("material-box--hidden");
 
         materialObserver.observe(material);

@@ -1,5 +1,5 @@
 .section-landing {
-  background-image: linear-gradient(to right bottom, #902bf5, #f361fb);
+  background-image: var(--bg-image);
   height: 85vh;
   grid-column: col-start 1 / col-end 8;
 

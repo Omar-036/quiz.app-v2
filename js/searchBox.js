@@ -11,6 +11,22 @@ $(function () {
 
   const suggestionsBox = document.querySelector(".auto-complete");
 
+  $.getScript("../js/materials.js")
+    .done(function (script, textStatus) {})
+    .fail(function (jqxhr, settings, exception) {
+      console.log("error");
+      return;
+    });
+
+  setTimeout(
+    () =>
+      $(".material-box").each(function (i, el) {
+        $(el.dataset.names.split(",")).each((i, d) => {
+          !data.includes(d) ? data.push(d) : null;
+        });
+      }),
+    1500
+  );
   //////////
   // CLEAR SEARCH BOX WHEN CLICK CLOSE ICON
   $(".search-box__icon--close").on("click", function () {
@@ -56,11 +72,13 @@ $(function () {
     $(sectionLanding).hide(0);
 
     // Hide The Material That Not Match The User Search
-    $(".material__name").each(function (i, el) {
-      if ($(this).text().toLocaleLowerCase().indexOf(inputValue) > -1) {
-        $(this).parent().show(speed);
+    $(".material-box").each(function (i, el) {
+      let text = el.dataset.names.split(",").join(" ");
+
+      if (text.toLowerCase().indexOf(inputValue) > -1) {
+        $(el).show(speed);
       } else {
-        $(this).parent().hide(speed);
+        $(el).hide(speed);
         numberOfMaterialHide += 1;
       }
     });
@@ -92,6 +110,7 @@ $(function () {
       $(".not-found").hide(150);
       changeIcon(true);
       $(suggestionsBox).show(150);
+
       emptyArray = data.filter(
         (d) =>
           d.toLocaleLowerCase().indexOf(inputValue.toLocaleLowerCase()) > -1

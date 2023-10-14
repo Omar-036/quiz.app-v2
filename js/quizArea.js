@@ -36,7 +36,7 @@ $(function () {
     let alert = quizMaterial.alert;
 
     if (alert.length) {
-      $(alert).each(function (i, mes) {
+      $(alert)?.each(function (i, mes) {
         const alertBox = `
       <div class="alert">
       <h3 class="alert--${mes.type}">
@@ -56,7 +56,14 @@ $(function () {
 
     // LOOP OVER QUISTIONS DATA QUESTION
     let curIndex = 0;
-    $(quizMaterial["quiz-data"]).each(function (index, question) {
+    let arrayOfQuestions = [];
+    $(quizMaterial["quiz-data"])?.each(function (index, question) {
+      arrayOfQuestions.push(question);
+    });
+    const shuffledQuestions = arrayOfQuestions
+      .slice()
+      .sort((a, b) => 0.5 - Math.random());
+    $(shuffledQuestions)?.each(function (index, question) {
       // APPEND QUIZ DATA BOX TO QUIZ AREA
       const quizData = `<div class="quiz-data"></div>`;
       $(".quiz-area").append(quizData);
@@ -86,42 +93,91 @@ $(function () {
       const answers = `<ul class="quiz-data__answers"></ul>`;
       $(".quiz-data__question").last().append(answers);
 
+      const action = `<span class="quiz-data__action"></span>`;
+      $(".quiz-data__question").last().append(action);
+
       // APPEND ANSWERS IN QUESTION DATA
 
       if (question["answers"].length === 0) numberOfQuestions -= 1;
+      let arrayOfAnswers = [];
       $(question["answers"]).each(function (index, answer) {
+        arrayOfAnswers.push(answer);
+      });
+
+      const shuffledAnswers = arrayOfAnswers
+        .slice()
+        .sort((a, b) => 0.5 - Math.random());
+      $(shuffledAnswers).each(function (index, answer) {
         let answerLi;
 
-        if (answer === question.rightAnswer[0]) {
-          answerLi = `<li class="quiz-data__answer pwd quiz-data__answer--${
-            index + 1
-          }">${answer}</li>`;
-        } else {
-          answerLi = `<li class="quiz-data__answer quiz-data__answer--${
-            index + 1
-          }">${answer}</li>`;
-        }
+        answerLi = `<li class="quiz-data__answer  quiz-data__answer--${
+          index + 1
+        }">${answer}</li>`;
 
         $(".quiz-data__answers").last().append(answerLi);
         $(".quiz-data__answer")
           .last()
-          .on("click", function (answer) {
-            if ($(answer.target).text() === question.rightAnswer[1]) {
-              $(answer.target).addClass("true");
+          .on("click", function (a) {
+            if (answer === question.rightAnswer[0]) {
+              $(a.target).addClass("true");
 
-              $(answer.target).parent().css("pointer-events", "none");
+              $(a.target).parent().css("pointer-events", "none");
+
+              $(a.target)
+                .parent()
+                .siblings(".quiz-data__action")
+                .text(
+                  `${
+                    quizMaterial["quiz-type"] === "english"
+                      ? "🔥 Perfect 🔥"
+                      : "🔥 ممتاز 🔥"
+                  }`
+                );
+              // $(a.target)
+              //   .parent()
+              //   .siblings(".quiz-data__action")
+              //   .css("color", "#b338d8");
+              $(a.target).parent().siblings(".quiz-data__action").show(0);
 
               rightAnswers += 1;
             } else {
-              $(answer.target).addClass("false");
-              $(answer.target).siblings(".pwd").addClass("true");
+              $(a.target).addClass("false");
+              $(a.target)
+                .parent()
+                .siblings(".quiz-data__action")
+                .text(
+                  `${
+                    quizMaterial["quiz-type"] === "english"
+                      ? `The Right Answer Is ${
+                          question.rightAnswer[1] || question.rightAnswer[0]
+                        }`
+                      : `الأجابة الصحيحة هي ${
+                          question.rightAnswer[1] || question.rightAnswer[0]
+                        }`
+                  } 😔`
+                );
+              $(a.target)
+                .parent()
+                .siblings(".quiz-data__action")
+                .css("color", "green");
+              $(a.target).parent().siblings(".quiz-data__action").show(0);
+              $(a.target)
+                .siblings("")
+                .each(function (i, sib) {
+                  if (
+                    $(sib).text() ===
+                    (question.rightAnswer[1] || question.rightAnswer[0])
+                  ) {
+                    $(sib).addClass("true");
+                  }
+                });
 
-              $(answer.target).parent().css("pointer-events", "none");
+              $(a.target).parent().css("pointer-events", "none");
 
               wrongAnswers += 1;
             }
 
-            $(answer.target)
+            $(a.target)
               .parent()
               .parent()
               .siblings(".quiz-data__desc")
