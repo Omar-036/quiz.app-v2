@@ -4,13 +4,15 @@
       "materialName": "operating system نطم التشغيل",
       "quiz-type": "english",
       "quizName": "operating system mid 1",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
       "alert": [],
       "quiz-data": [
         {
           "titleText": "The role of ........... is to defend the system from internal or external attacks.",
           "titleImage": "",
           "answers": ["none", "Protection", "Mechanism", "Security"],
-          "rightAnswer": ["Security", "Security"],
+          "rightAnswer": ["Security"],
           "hasDescription": true,
           "image": ["OS/OSQ1.jpg"],
           "text": []
@@ -148,6 +150,8 @@
       "materialName": "operating system نطم التشغيل",
       "quiz-type": "english",
       "quizName": "operating system mid 2",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
       "alert": [],
       "quiz-data": [
         {
@@ -303,6 +307,8 @@
       "materialName": "operating system نطم التشغيل",
       "quiz-type": "english",
       "quizName": "operating system mid 3",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
       "alert": [],
       "quiz-data": [
         {
@@ -440,6 +446,9 @@
       "materialName": "operating system نطم التشغيل",
       "quiz-type": "english",
       "quizName": "operating system mid 4",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
       "alert": [],
       "quiz-data": [
         {
@@ -548,6 +557,9 @@
       "materialName": "operating system نطم التشغيل",
       "quiz-type": "english",
       "quizName": "operating system mid 5",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
       "alert": [],
       "quiz-data": [
         {
@@ -712,6 +724,8 @@
       "materialName": "operating system نطم التشغيل",
       "quiz-type": "english",
       "quizName": "operating system final 1",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
       "alert": [],
       "quiz-data": [
         {
@@ -851,10 +865,16 @@
       "materialName": "operating system نطم التشغيل",
       "quiz-type": "english",
       "quizName": "operating system final 2",
+      "shuffleQuestions": false,
+      "shuffleAnswers": true,
       "alert": [
         {
           "type": "warning",
           "text": "These questions have been answered based on my understanding of the material. If you are in doubt about a question, go back to the teacher to ensure the correct answer."
+        },
+        {
+          "type": "success",
+          "text": "If one of the answers is wrong and you have the answer and are sure it is correct, send it to me"
         }
       ],
       "quiz-data": [
@@ -943,6 +963,8 @@
       "materialName": "operating system نطم التشغيل",
       "quiz-type": "english",
       "quizName": "operating system final 3",
+      "shuffleQuestions": false,
+      "shuffleAnswers": true,
       "alert": [
         {
           "type": "warning",
@@ -1012,6 +1034,8 @@
       "materialName": "برمجة تطبيقات الانترنت web",
       "quiz-type": "english",
       "quizName": "web mid 1",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
 
       "alert": [],
       "quiz-data": [
@@ -1207,6 +1231,8 @@
       "materialName": "برمجة تطبيقات الانترنت web",
       "quiz-type": "english",
       "quizName": "web mid 2",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
       "alert": [],
       "quiz-data": [
         {
@@ -1385,6 +1411,8 @@
       "materialName": "برمجة تطبيقات الانترنت web",
       "quiz-type": "english",
       "quizName": "web mid 3",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
 
       "alert": [],
       "quiz-data": [
@@ -1400,6 +1428,83 @@
             "/* and */ => css comments and js",
             "// => js comments"
           ]
+        },
+        {
+          "titleText": "Which of the following background CSS rule is responsible of controlling the scrolling of an image in the background?",
+          "titleImage": "",
+          "answers": [
+            "background-position",
+            "background-repeat",
+            "background-attachment",
+            "background"
+          ],
+          "rightAnswer": ["background-attachment"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The background-position property sets the starting position of a background image.",
+            "The background-repeat property sets if/how a background image will be repeated",
+            "The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed."
+          ]
+        },
+        {
+          "titleText": "&lt;li&gt; is a block level element",
+          "titleImage": "",
+          "answers": ["true", "false"],
+          "rightAnswer": ["true"],
+          "hasDescription": true,
+          "image": ["web/a33.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "The href attribute is used in a(n)_____________ element to provide an________________for another location ",
+          "titleImage": "",
+          "answers": ["img, text", "a, address", "title, text", "href, a"],
+          "rightAnswer": ["a, address"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another."
+          ]
+        },
+        {
+          "titleText": "If there is a CSS rule p {font-size: 14px;} in the external style sheet, and there is a CSS rule p {font-size: 12px;} in the internal style sheet, then the font-size of the text in a paragraph will be 26px",
+          "titleImage": "",
+          "answers": ["false", "true"],
+          "rightAnswer": ["false"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The style will be overwritten, not collect values",
+            "External and internal style sheets (in the head section) are assigned the same level of priority",
+            "The last one declared gets the highest priority",
+            "The font size will be 12px or 14px that depend on the code"
+          ]
+        },
+        {
+          "titleText": "Which HTML attribute is needed to define an inline CSS Rules?",
+          "titleImage": "",
+          "answers": ["class", "id", "style", "styles"],
+          "rightAnswer": ["style"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "you need to use the style attribute. The style attribute is used to add inline styles directly to an HTML element."
+          ]
+        },
+        {
+          "titleText": "How do you represent a border with the following width: <br> The top border = 10 pixels <br> The bottom border = 5 pixels <br> The left border = 20 pixels <br> The right border = 1 pixel",
+          "titleImage": "",
+          "answers": [
+            "border-width: 10px 5px 20px 1px",
+            "border-width: 10px 1px 20px 5px",
+            "border-width: 10px 1px 5px 20px",
+            "border-width: 10px 20px 5px 1px"
+          ],
+          "rightAnswer": ["border-width: 10px 1px 5px 20px"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["border-width: top right bottom left;"]
         }
       ]
     }

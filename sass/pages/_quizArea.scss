@@ -7,7 +7,7 @@
   &__quiz-result {
     margin-top: 2rem;
     text-align: center;
-    border-top: 1px solid purple;
+    border-top: 1px solid var(--color-primary-purple);
     padding: 4rem 3rem;
     display: none;
 
@@ -30,7 +30,7 @@
       margin: 1rem auto;
       width: fit-content;
 
-      background-image: linear-gradient(to left, #902bf5, #f361fb);
+      background-image: linear-gradient(to left, #a62ddf, #f361fb);
       -webkit-background-clip: text;
       color: transparent;
       span {

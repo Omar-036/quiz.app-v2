@@ -3,30 +3,34 @@
     {
       "arabicName": "نظم التشغيل",
       "englishName": "(operating system)",
-      "date": "7 / 5/ 2023",
-      "author": "nothing now",
-      "img": "bg/OS.jpg"
+      "date": "7 / 5 / 2023",
+      "author": "Omar Alhaj",
+      "img": "bg/OS-min.jpg",
+      "data-names": "os,operating system,نظم التشغيل"
     },
     {
       "arabicName": "برمجة تطبيقات الأنترنت",
       "englishName": "(WEB)",
-      "date": "7 / 5/ 2023",
-      "author": "nothing now",
-      "img": "bg/web.jpg"
+      "date": "11 / 10 / 2023",
+      "author": "Omar Alhaj",
+      "img": "bg/web.jpg",
+      "data-names": "web,html,css,javascript,js,php,ويب,برمجة تطبيقات الأنترنت"
     },
     {
       "arabicName": "علوم عسكرية",
       "englishName": "",
-      "date": "7 / 5/ 2023",
-      "author": "nothing now",
-      "img": "bg/military.jpg"
+      "date": "7 / 5 / 2023",
+      "author": "N / A",
+      "img": "bg/military.jpg",
+      "data-names": "علوم عسكرية"
     },
     {
       "arabicName": "تربية وطنية",
       "englishName": "",
-      "date": "7 / 5/ 2023",
-      "author": "nothing now",
-      "img": "bg/nationality.jpg"
+      "date": "7 / 5 / 2023",
+      "author": "N / A",
+      "img": "bg/nationality-min.jpg",
+      "data-names": "تربية وطنية"
     }
   ]
 }

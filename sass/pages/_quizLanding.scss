@@ -6,4 +6,16 @@
 
   gap: 4rem;
   position: relative;
+
+  &--english-quiz {
+    direction: ltr;
+    font-family: var(--font-english);
+    letter-spacing: 1px;
+    // font-family: op;
+  }
+
+  &--arabic-quiz {
+    direction: rtl;
+    font-family: var(--font-arabic);
+  }
 }

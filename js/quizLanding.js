@@ -26,6 +26,29 @@ $(function () {
         )
     );
     $(".load-circle").fadeOut(0);
+
+    $(".section-quizes").addClass(
+      `section-quizes--${
+        data[localStorage.getItem("quizIndex")].quizType || "english-quiz"
+      }`
+    );
+
+    let alert = data[localStorage.getItem("quizIndex")].alert;
+
+    if (alert?.length) {
+      $(alert)?.each(function (i, mes) {
+        const alertBox = `
+      <div class="alert">
+      <h3 class="alert--${mes.type}">
+        ${mes.text}
+      </h3>
+      </div>
+      `;
+
+        $(".section-quizes").append(alertBox);
+        $(".alert").on("click", (mes) => $(mes.target).fadeOut(100));
+      });
+    }
     $(data[localStorage.getItem("quizIndex")]["materialQuizes"]).each(function (
       index,
       el

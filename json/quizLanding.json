@@ -1,6 +1,7 @@
 [
   {
     "materialName": "operating system",
+
     "materialQuizes": [
       {
         "quizName": "mid 1",
@@ -38,18 +39,25 @@
   },
   {
     "materialName": "web",
+    "quizType": "english-quiz",
+    "alert": [
+      {
+        "type": "warning",
+        "text": "The exams do not contain any questions related to table tag in html. Please refer to the Etihad sources of materials and review them"
+      }
+    ],
     "materialQuizes": [
       {
         "quizName": "mid 1",
-        "quizDesc": ""
+        "quizDesc": "HTML and CSS"
       },
       {
         "quizName": "mid 2",
-        "quizDesc": ""
+        "quizDesc": "HTML and CSS"
       },
       {
         "quizName": "mid 3",
-        "quizDesc": ""
+        "quizDesc": "HTML and CSS"
       }
     ]
   },

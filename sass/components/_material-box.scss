@@ -19,6 +19,8 @@
   opacity: 1;
   transition: transform 0.3s, opacity 0.5s;
 
+  background-image: url(../img/bg/default-bg.jpg);
+
   &--hidden {
     opacity: 0;
     transform: translateX(3rem);
