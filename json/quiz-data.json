@@ -1478,7 +1478,7 @@
             "The style will be overwritten, not collect values",
             "External and internal style sheets (in the head section) are assigned the same level of priority",
             "The last one declared gets the highest priority",
-            "The font size will be 12px or 14px that depend on the code"
+            "The font size will be 12px or 14px that depend Whos declared after"
           ]
         },
         {
