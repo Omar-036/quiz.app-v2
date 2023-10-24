@@ -60,10 +60,16 @@ $(function () {
     $(quizMaterial["quiz-data"])?.each(function (index, question) {
       arrayOfQuestions.push(question);
     });
+<<<<<<< HEAD
 
     const shuffledQuestions = quizMaterial.shuffleQuestions
       ? arrayOfQuestions.slice().sort((a, b) => 0.5 - Math.random())
       : arrayOfQuestions;
+=======
+    const shuffledQuestions = arrayOfQuestions
+      .slice()
+      .sort((a, b) => 0.5 - Math.random());
+>>>>>>> 8f41b2713803a6752bdc1ff8cbd01df82a1718c1
     $(shuffledQuestions)?.each(function (index, question) {
       // APPEND QUIZ DATA BOX TO QUIZ AREA
       const quizData = `<div class="quiz-data"></div>`;
@@ -105,9 +111,15 @@ $(function () {
         arrayOfAnswers.push(answer);
       });
 
+<<<<<<< HEAD
       const shuffledAnswers = quizMaterial.shuffleAnswers
         ? arrayOfAnswers.slice().sort((a, b) => 0.5 - Math.random())
         : arrayOfAnswers;
+=======
+      const shuffledAnswers = arrayOfAnswers
+        .slice()
+        .sort((a, b) => 0.5 - Math.random());
+>>>>>>> 8f41b2713803a6752bdc1ff8cbd01df82a1718c1
       $(shuffledAnswers).each(function (index, answer) {
         let answerLi;
 
