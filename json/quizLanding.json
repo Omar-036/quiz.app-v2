@@ -48,16 +48,24 @@
     ],
     "materialQuizes": [
       {
-        "quizName": "mid 1",
-        "quizDesc": "HTML and CSS"
+        "quizName": "HTML, CSS",
+        "quizDesc": ""
       },
       {
-        "quizName": "mid 2",
-        "quizDesc": "HTML and CSS"
+        "quizName": "HTML, CSS",
+        "quizDesc": ""
       },
       {
-        "quizName": "mid 3",
-        "quizDesc": "HTML and CSS"
+        "quizName": "HTML, CSS",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "HTML, CSS",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "JS, PHP",
+        "quizDesc": ""
       }
     ]
   },

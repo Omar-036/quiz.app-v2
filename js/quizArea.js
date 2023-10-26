@@ -19,6 +19,11 @@ $(function () {
         localStorage.getItem("quizNumber")
       ];
 
+    if (!quizMaterial) {
+      $(".load-circle").fadeOut(0);
+      window.alert("Sorry, some error occured");
+      return;
+    }
     let numberOfQuestions = quizMaterial["quiz-data"].length;
 
     $(document).prop(
@@ -27,7 +32,6 @@ $(function () {
     );
 
     $(".load-circle").fadeOut(0);
-
     // QUIZ AREA
     const quizArea = `<div class="quiz-area quiz-area--${quizMaterial["quiz-type"]}-quiz"></div>`;
     $("main").append(quizArea);
@@ -406,6 +410,7 @@ $(function () {
 
   // FORMAT QUESTION TITLE TO (01 + CAPITALIZE TEXT)
   function textCapitalizeFormat(text) {
+    if (text.length === 0) return;
     return text.toLowerCase()[0].toUpperCase() + text.toLowerCase().slice(1);
   }
 

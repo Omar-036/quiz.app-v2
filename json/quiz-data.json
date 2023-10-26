@@ -1505,6 +1505,199 @@
           "hasDescription": true,
           "image": [],
           "text": ["border-width: top right bottom left;"]
+        },
+        {
+          "titleText": "The alt attribute is used in a(n) __________ element to provide an alternate __________ description for the image",
+          "titleImage": "",
+          "answers": [
+            "img, text",
+            "a href, address",
+            "title, text",
+            "image, text",
+            "src, image size"
+          ],
+          "rightAnswer": ["img, text"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader) "
+          ]
+        },
+        {
+          "titleText": "Which of the following is the right way to apply this CSS rule: <br> .blue {color: blue }",
+          "titleImage": "",
+          "answers": [
+            "&lt;p color = \"blue\"&gt;",
+            "&lt;p class = \"blue\"&gt;",
+            "&lt;p color = .blue&gt;",
+            "&lt;p class = .blue&gt;"
+          ],
+          "rightAnswer": ["&lt;p class = \"blue\"&gt;", "<p class = \"blue\">"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "To select elements with a specific class, you must write a period (.) character"
+          ]
+        },
+        {
+          "titleText": "The following is a list inside an HTML document: <br> &lt;ol&gt; <br> &lt;li id= \"a1\"&gt; item1 &lt;/li&gt; <br> &lt;li id= \"a1\"&gt; item1 &lt;/li&gt; <br> &lt;/ol&gt; <br> And it uses the following CSS rules: <br> #a1 {margin-bottom: 10px;} <br> #a2 {margin-top: 5px;} <br> Then when the list is displayed in a browser, the actual margin between <br> \"item1\" and \"item2\" will be ___",
+          "titleImage": "",
+          "answers": ["5px", "10px", "15px", "None of the given choices"],
+          "rightAnswer": ["10px"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The top and bottom margins of blocks are sometimes combined (collapsed) into a single margin whose size is the largest of the individual margins (or just one of them, if they are equal), a behavior known as margin collapsing."
+          ]
+        }
+      ]
+    },
+    {
+      "materialName": "برمجة تطبيقات الانترنت web",
+      "quiz-type": "english",
+      "quizName": "web mid 4",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "To refer to an external CSS file within an HTML document, use:",
+          "titleImage": "",
+          "answers": [
+            "&lt;a href=\"\"&gt;&lt;/a&gt;",
+            "&lt;script&gt;&lt/script&gt;",
+            "&ltstyle&gt;&lt/style&gt;",
+            "&ltlink&gt;"
+          ],
+          "rightAnswer": ["&ltlink&gt;", "<link>"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The &lt;a&gt; (anchor) tag is used to create hyperlinks in HTML. It allows you to link to other web pages, resources, or locations ",
+            "The &lt;style&gt; tag in HTML is used to define inline CSS (Cascading Style Sheets) within an HTML document",
+            "The &lt;script&gt; tag is used to include JavaScript code within an HTML document",
+            "To link an external CSS file to an HTML document, you can use the &ltlink&gt; element within the &lt;head&gt; section of your HTML file. Here's how you do it"
+          ]
+        },
+        {
+          "titleText": "To repeat background image vertically the value of background-repeat should be",
+          "titleImage": "",
+          "answers": [
+            "no-repeat",
+            "repeat-x",
+            "repeat-y",
+            "x-repeat",
+            "y-repeat"
+          ],
+          "rightAnswer": ["repeat-y"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": " CSS comments are placed within the ______.",
+          "titleImage": "",
+          "answers": ["//", "/* and */", "<* and *>", "&lt;! and !&gt;"],
+          "rightAnswer": ["/* and */"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "Which property is used to define the text color?",
+          "titleImage": "",
+          "answers": ["text-color", "color", "font-color", "Both A. and B"],
+          "rightAnswer": ["color"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "To make a text italic, which CSS property is used?",
+          "titleImage": "",
+          "answers": ["font-family", "font-style", "font-size", "font-weight"],
+          "rightAnswer": ["font-style"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "Which of the following is the correct syntax to display the hyperlinks (a tag) without any underline?",
+          "titleImage": "",
+          "answers": [
+            "a {text-decoration : underline;}",
+            "a {text-decoration : none;}",
+            "a {text-decoration : block;}",
+            "a {text-decoration : no-underline;}"
+          ],
+          "rightAnswer": ["a {text-decoration : none;}"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "The following css rule is equivalent to? <br> nav {border: 5px solid blue:}",
+          "titleImage": "",
+          "answers": [
+            "nav {border-width: 5px; border-style: solid; border-color: blue;}",
+            "nav {width: 5px; style: solid; color: blue;}",
+            "nav {nav-width: 5px; nav-style: solid; nav-color: blue;}",
+            "nav {border-weight: 5px; border-size: solid; font-color: blue;}"
+          ],
+          "rightAnswer": [
+            "nav {border-width: 5px; border-style: solid; border-color: blue;}"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The shorthand for border is as follows:",
+            "border: border-width border-style border-color;"
+          ]
+        },
+        {
+          "titleText": "Which CSS property and value is used to center an element?",
+          "titleImage": "",
+          "answers": [
+            "text-align:center",
+            "align:center",
+            "text-align:middle",
+            "align:middle"
+          ],
+          "rightAnswer": ["text-align:center"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "What does the CSS property \"margin\" control?",
+          "titleImage": "",
+          "answers": [
+            "The space inside an element",
+            "The space between elements",
+            "The width of an element",
+            "The background color of an element"
+          ],
+          "rightAnswer": ["The space between elements"],
+          "hasDescription": true,
+          "image": ["web/a39.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "What is the purpose of the CSS property \"padding\"?",
+          "titleImage": "",
+          "answers": [
+            "It sets the text color of an element.",
+            "It controls the space between the content and the border of an element.",
+            "It changes the font size of an element.",
+            "It sets the element's background color."
+          ],
+          "rightAnswer": [
+            "It controls the space between the content and the border of an element."
+          ],
+          "hasDescription": true,
+          "image": ["web/a39.jpg"],
+          "text": []
         }
       ]
     }
