@@ -1,5 +1,7 @@
+import { putMarks } from "./quizLanding.js";
+
 $(function () {
-  "use strict";
+  ("use strict");
   $(".header__list").on("click", function (e) {
     if (e.target.classList.contains("add-material")) {
       $(".popup-main").text("غير متوفر الأن");
@@ -191,6 +193,8 @@ $(function () {
             // SHOW QUIZ RESULT WHEN THE QUIZ IS END
 
             if (numberOfQuestions === rightAnswers + wrongAnswers) {
+              putMarks(rightAnswers, wrongAnswers, numberOfQuestions);
+
               appendQuizResult();
               $(".quiz__quiz-result").fadeIn(150);
 

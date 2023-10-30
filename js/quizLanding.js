@@ -1,3 +1,5 @@
+let datat;
+
 $(function () {
   ("use strict");
 
@@ -49,10 +51,12 @@ $(function () {
         $(".alert").on("click", (mes) => $(mes.target).fadeOut(100));
       });
     }
-    $(data[localStorage.getItem("quizIndex")]["materialQuizes"]).each(function (
-      index,
-      el
-    ) {
+
+    datat = data[localStorage.getItem("quizIndex")]["materialQuizes"];
+
+    localStorage.setItem("quizData", JSON.stringify(datat));
+
+    $(JSON.parse(localStorage.getItem("quizData"))).each(function (index, el) {
       const quizBox = `
       <a href="quizArea.html" class="quiz-box">
         <h2 class="quiz-box__heading">${el["quizName"]}</h2>
@@ -80,3 +84,17 @@ $(function () {
     return text.toLowerCase()[0].toUpperCase() + text.toLowerCase().slice(1);
   }
 });
+
+//////////////////////
+
+export function putMarks(correct, wrong, total) {
+  const newData = JSON.parse(localStorage.getItem("quizData"));
+
+  console.log(newData);
+
+  newData[localStorage.getItem("quizNumber")].quizDesc = correct;
+
+  console.log(newData);
+
+  localStorage.setItem("quizData", JSON.stringify(newData));
+}

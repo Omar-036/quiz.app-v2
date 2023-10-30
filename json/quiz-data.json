@@ -1033,7 +1033,7 @@
     {
       "materialName": "برمجة تطبيقات الانترنت web",
       "quiz-type": "english",
-      "quizName": "web mid 1",
+      "quizName": "web Html, Css",
       "shuffleQuestions": true,
       "shuffleAnswers": true,
 
@@ -1230,7 +1230,7 @@
     {
       "materialName": "برمجة تطبيقات الانترنت web",
       "quiz-type": "english",
-      "quizName": "web mid 2",
+      "quizName": "web html, css",
       "shuffleQuestions": true,
       "shuffleAnswers": true,
       "alert": [],
@@ -1410,7 +1410,7 @@
     {
       "materialName": "برمجة تطبيقات الانترنت web",
       "quiz-type": "english",
-      "quizName": "web mid 3",
+      "quizName": "web html, css",
       "shuffleQuestions": true,
       "shuffleAnswers": true,
 
@@ -1555,7 +1555,7 @@
     {
       "materialName": "برمجة تطبيقات الانترنت web",
       "quiz-type": "english",
-      "quizName": "web mid 4",
+      "quizName": "web html, css",
       "shuffleQuestions": true,
       "shuffleAnswers": true,
 
@@ -1697,6 +1697,161 @@
           ],
           "hasDescription": true,
           "image": ["web/a39.jpg"],
+          "text": []
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "materialName": "برمجة تطبيقات الانترنت المتقدمة web advanced",
+      "quiz-type": "english",
+      "quizName": "web advanced mid 1",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "What is the result of the alert statement after executing the start function",
+          "titleImage": "web-advanced/q1.jpg",
+          "answers": [
+            "90:85:70:99:75",
+            "95:90:75:104:80",
+            "80,104,75,90,95",
+            "95,90,75,104,80"
+          ],
+          "rightAnswer": ["95:90:75:104:80"],
+          "hasDescription": true,
+          "image": ["web-advanced/a1.jpg"],
+          "text": [
+            "The \"marks\" array is defined with values [90, 85, 70, 99, 75].",
+            "The \"add5marks\" function is called with the \"marks\" array as an argument.",
+            "Inside the \"add5marks\" function, a for-in loop iterates over the indices of the array (0, 1, 2, 3, 4), and each element in the array is increased by 5.",
+            "The \"marks\" array is modified to [95, 90, 75, 104, 80] within the \"add5marks\" function.",
+            "Finally, the \"console.log\" statement is executed, displaying the modified \"marks\" array with values separated by colons: \"95:90:75:104:80.\""
+          ]
+        },
+        {
+          "titleText": "What does the output of the following JavaScript code?",
+          "titleImage": "web-advanced/q2.jpg",
+          "answers": [
+            "error",
+            "error error",
+            "error error error",
+            "0798",
+            "45"
+          ],
+          "rightAnswer": ["error error"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "first iteration when char is '0' <br> 0 >= 0 // true <br>  true && 0 <= 9 // (true && true) true <br>  true || 0 == \"\" (true || false) true  <br> !true => false the condttion is false nothing will happened",
+            "the condtion will be true for characters 'r' and 't'"
+          ]
+        },
+        {
+          "titleText": "What is the content of the variable res after executing the following JavaScript code?",
+          "titleImage": "web-advanced/q3.jpg",
+          "answers": ["314578234", "41617", "123344578", "875443321", "47"],
+          "rightAnswer": ["41617"],
+          "hasDescription": true,
+          "image": ["web-advanced/a3.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "The following css is",
+          "titleImage": "web-advanced/q4.jpg",
+          "answers": [
+            "styles for devices with screen widths of 1025px or greater",
+            "styles for smartphones with screen widths of at least 480px",
+            "styles for smartphones with screen widths 480px or smaller",
+            "styles for devices with screen widths of 481px to 1024px"
+          ],
+          "rightAnswer": [
+            "styles for devices with screen widths of 481px to 1024px"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "Which of the following html sections give the output in the figure ?",
+          "titleImage": "web-advanced/q5.jpg",
+          "answers": [
+            "&lt;div style=\"border: 3px double green; background: lightgreen; width: 200px; text-align: center; border-radius: 300px 0px 300px 0px;\"&gt; Fasting is a pillar in islam.&lt;/div&gt;",
+            "&lt;div style=\"border: 3px dotted green; background: lightgreen; width: 200px; text-align: center; border-radius: 300px 0px 300px 0px;\"&gt; Fasting is a pillar in islam. &lt;/div&gt;",
+            "&lt;div style=\"border: 3px dotted black; background: lightgreen; width: 200px; text-align: center; border-radius: 300px 0px 300px 0px;\"&gt; Fasting is a pillar in islam.&lt;/div&gt;",
+            "&lt;div style=\"padding: 3px dotted green; background: lightgreen; width: 200px; text-align: center; border-radius: 300px 0px 300px 0px;\"&gt; Fasting is a pillar in islam. &lt;/div&gt;",
+            "&lt;div style=\"border: 3px dotted green; background: red; width: 200px; text-align: center; border-radius: 300px 0px 300px 0px;\"&gt; Fasting is a pillar in islam.&lt;/div&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;div style=\"border: 3px dotted green; background: lightgreen; width: 200px; text-align: center; border-radius: 300px 0px 300px 0px;\"&gt; Fasting is a pillar in islam. &lt;/div&gt;",
+            "<div style=\"border: 3px dotted green; background: lightgreen; width: 200px; text-align: center; border-radius: 300px 0px 300px 0px;\"> Fasting is a pillar in islam. </div>"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "Whatdoes the following code do:",
+          "titleImage": "web-advanced/q6.jpg",
+          "answers": [
+            "it displays on the screen the image that itsname saved in pictures[7].",
+            "itpicks a random image from the pictures array and displays it",
+            "it picks a random image from the pictures array and saves it in the current directory",
+            "it displays on the screen all the seven images from the pictures array on the screen"
+          ],
+          "rightAnswer": [
+            "itpicks a random image from the pictures array and displays it"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "What is the output of the following JavaScript code:",
+          "titleImage": "web-advanced/q7.jpg",
+          "answers": ["10", "-1", "2", "9", "1", "30"],
+          "rightAnswer": ["-1"],
+          "hasDescription": true,
+          "image": ["web-advanced/a7.jpg"],
+          "text": [
+            "The indexOf() method returns the position of the first occurrence of a value in a string",
+            "The indexOf() method returns -1 if the value is not found."
+          ]
+        },
+        {
+          "titleText": "What is the output of the following javaScript Code:",
+          "titleImage": "web-advanced/q8.jpg",
+          "answers": [
+            "COVID-19 is the infectious disease",
+            "Nabataean",
+            "Petra",
+            "strng",
+            "The city of Petra, capital of the Nabataean Arabs,"
+          ],
+          "rightAnswer": ["The city of Petra, capital of the Nabataean Arabs,"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["-_-"]
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["", "", "", ""],
+          "rightAnswer": [""],
+          "hasDescription": true,
+          "image": [""],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["", "", "", ""],
+          "rightAnswer": [""],
+          "hasDescription": true,
+          "image": [""],
           "text": []
         }
       ]

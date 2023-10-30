@@ -62,9 +62,15 @@
       {
         "quizName": "HTML, CSS",
         "quizDesc": ""
-      },
+      }
+    ]
+  },
+  {
+    "materialName": "web advanced",
+    "quizType": "english-quiz",
+    "materialQuizes": [
       {
-        "quizName": "JS, PHP",
+        "quizName": "Mid 1",
         "quizDesc": ""
       }
     ]
