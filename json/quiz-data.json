@@ -1856,5 +1856,979 @@
         }
       ]
     }
+  ],
+  [
+    {
+      "materialName": "فكر اسلامي",
+      "quiz-type": "arabic",
+      "quizName": "فكر اسلامي ميد 1",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "من الأمثلة على المكروهات:التهاون في الأداب الإسلامية للطعام والشراب.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "يعد حفظ المال من الضرورات التي جاء الإسلام للحفاظ عليها لذلك شرع البيع وحرم الربا وأقام الحد على السارق.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الزكاة عبادة مالية صرفة تقوم على مراعاة الجانب المادي دون النظر للأعتبارات السلوكية.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "أعظم مقاصد التهذيب سلوك المسلم الحاج.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الحج عبادة مالية فرضها الله تعالى على المسلم في العمر مرة واحدة .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ما يثاب تاركها ويعاقب فاعلها تسمى المحرمات ومن أمثلتها الخمر والربا .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "اماطة الأذى عن الطريق شعبة من شعب الإسلام الذي دعى اليه الانبياء في رسالاتهم.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "قضاء ما يجب أداؤه من الصلوات المكتوبة باطل في هيئته وفي تسميته إذ لا قضاء في هذا الباب مطلقا الا ما ورد تسميته من عذري النوم والنسيان فإن فوت الصلاة لواحد من هذين العذرين يجيز أداءها ولا يسمى ذلك قضاء البتة.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الذي منع أرض فدك من أن تورث بعد النبي صلى الله عليه وسلم سيدنا عمر بن الخطاب رضي الله عنه.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "العبادة في الاسلام إلتزاماً منضبطاً لما يقوم عليه توحيد الربوبية.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "فكر اسلامي",
+      "quiz-type": "arabic",
+      "quizName": "فكر اسلامي ميد 2",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "يدفع من تجب عليه الزكاة ما نسبته %3.5 من أمواله النقدية وتجاراته 21 التي مر عليها عام وهي في حوزته.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الأموال التي تجب فيها الزكاة منها الذهب والفضة وما يقابلهما من النقود والأسهم والتجارات.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "قول النبي صلى الله عليه وسلم الصلاة (نور) معناها أن الصلاة تمنع المصلي من المعاصي وتنهاه عن الفحشاء والمنكر.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ان الذي تركه النبي صلى الله عليه وسلم ليس ميرانا يفتنون به من بعده من آل بيته بل ديناً يؤدونه من بعده.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الصلوات الخمس الركن الثالث من أركان السلام .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "قضاء ما يجب أداؤه من الصلوات المكتوبة باطل في هيئته وفي تسميته إذ لا قضاء في هذا الباب مطلقا الا ما ورد تسميته من عذري النوم والنسيان فإن فوت الصلاة لواحد من هذين العذرين يجيز أداءها ولا يسمى ذلك قضاء البتة.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "لأهمية ركن الصلاة فقد جعله النبي صلى الله عليه وسلم عمود الدين وأخبر أنها أول ما يسأل العبد يوم القيامة.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "أحب الناس إلى النبي صل الله عليه وسلم وأقربهم منه يوم القيامة أكثرهم صياما.ً",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "المستحقون لأخذ الزكاة ستة أصناف جاءت في بيانهم النصوص الشرعية .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ترتفع العادات إلى منزلة العبادات إذا اقترنت بنية صالحة واستحضار قلبي مشروع.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "فكر اسلامي",
+      "quiz-type": "arabic",
+      "quizName": "فكر اسلامي ميد 3",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "ما من شيء أثقل في ميزان المؤمن يوم القيامة من حسن الخلق .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "كان من دلائل النبوة ما أتى الله تعالى النبي صلى الله عليه وسلم من المعجزات الحسية .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "من الأمثلة على المثالية الواقعية للإسلام التدرج في معالجة الأمراض والأنام المستفحلة في المجتمع كما هو الحال في التدرج تحريم الخمر.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الطعام والشراب والنوم والبيع والشراء أمثلة على المباحات .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "حرم الله الشرك اعتقادا وعملا كما حرم ما يفضي اليه كالغلو في الأنبياء والصالحين من باب حفظ الدين .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الأجماع والقياس والاستصحاب والاستحسان والعرف هي مصادر فرعية في الشريعة الاسلامية.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "تعد العبادة في الاسلام إلتزاماً منضبطاً لما يقوم عليه توحيد الألوهية .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ما طلبه الله تعالى ورسوله صلى الله عليه وسلم من الطاعات على جهة الالزام يسمى الواجب أو الفرض.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "من الامثلة على السنن المستحية بر الوالدين وصلة الرحم والتعاون مع الآخرين على أعمال البر والتقوى .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "يستمد المسلم شرائعه من القرآن الكريم الذي أوحاه الله بحروفه، باعتباره المصدر الأصلي الوحيد لهذه الشريعة .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "العبادة اسم جامع لكل قول وفعل يحبه الله تعالى ويرضاه ظاهرا وباطنا .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "من شيء أثقل في ميزان المؤمن يوم القيامة من الصلاة على وقتها .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "حين نتحدث عن الإسلام فإنا نعني الدين الذي أنزله الله تعالى على سيدنا محمد صلى الله عليه وسلم لما تضمنه من الاستسلام والانقياد والخضوع والطاعة.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "فكر اسلامي",
+      "quiz-type": "arabic",
+      "quizName": "فكر اسلامي ميد 4",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "قضاء ما يجب اداؤه من الصلوات المكتوبة باطل في هيئته وفي تسميته اذ لا قضاء في هذا الباب مطلقا الا ما ورد تسميته من عذري اللوم والنسيان فان فوت الصلاة لواحد من هذين العذرين يجيز أداءها ولا يسمى ذلك قضاء البتة",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["لا يسمى قضاء البتة (صحيح)"]
+        },
+        {
+          "titleText": "قضاء ما يجب اداؤه من الصلوات المكتوبة باطل في هيئته وفي تسميته اذ لا قضاء في هذا الباب مطلقا الا ما ورد تسميته من عذري اللوم والنسيان فان فوت الصلاة لواحد من هذين العذرين يجيز أداءها ويسمى ذلك قضاءا",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["يسمى قضاءا (خطأ)"]
+        },
+        {
+          "titleText": "جاء الامر بايتاء الزكاة لا باعطاءها نزولا عند مقاصدية هذا الركن ولما بين الايتاء والاعطاء من تفاوت في الهيئة والاسلوب",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الطعام والشراب والنوم والبيع والشراء أمثلة على المباحات .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "يعد حفظ المال من الضرورات التي جاء الإسلام للحفاظ عليها لذلك شرع البيع وحرم الربا وأقام الحد على السارق.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "العبادة في الاسلام إلتزاماً منضبطاً لما يقوم عليه توحيد الربوبية.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["العبادة - توحيد الألوهية"]
+        },
+        {
+          "titleText": "تعد العبادة في الاسلام إلتزاماً منضبطاً لما يقوم عليه توحيد الاسماء والصفات",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["توحيد الألوهية"]
+        },
+        {
+          "titleText": "تعد العبادة في الإسلام التزامًا منضبطًا لما يقوم على توحيد الألوهية.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "اماطة الاذى شعبة من شعب الايمان الذي تتوثق في عراه الاعمال بمحالها من توحيد الالوهية",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الزكاة عبادة مالية صرفة تقوم على مراعاة الجانب المادي دون النظر للاعتبارات السلوكية",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["الاعتبارات السلوكية مهمة"]
+        }
+      ]
+    },
+    {
+      "materialName": "فكر اسلامي",
+      "quiz-type": "arabic",
+      "quizName": "فكر اسلامي ميد 5",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "اماطة الاذى عن الطريق عمل محمود وله وجاهته في البيئة والمجتمع وهذه النظرة التي يراعيها المسلم في تقيده بذلك السلوك",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "اماطة الأذى عن الطريق شعبة من شعب الإسلام الذي دعى إليه الأنبياء في رسالتهم.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["يجب ان تكون من شعب الايمان"]
+        },
+        {
+          "titleText": "اماطة الاذى شعبة من شعب الايمان الذي تتوثق في عراه الاعمال بمحالها من توحيد الالوهية",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "أعظم مقاصد الحج تهذيب سلوك المسلم الحاج",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "وقعية الاسلام مبنية على انه سلوك انساني يعيشه الانسان يوميا ومثاليته يحققها انه يهدف الى اصلاح المجتمع ولا يرضى بالتعايش والمهادنة مع الخطأ والرذيلة",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "سن الله تعالى للمجتمع والدولة حماية الدين وتسهيل سبل التدين",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["أوجب"]
+        },
+        {
+          "titleText": "قولنا ان الله لا يحاسب الانسان على ما لا يقدر عليه ولم يكلفه فوق طاقته يندرج تحت خاصية الواقعية للشعريعة",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["الصح هو :- العدل والمساواة"]
+        },
+        {
+          "titleText": "حين نتحدث عن الاسلام فانا نعني الدين الذي أنزله الله تعالى على سيدنا محمد صلى الله عليه وسلم لما تضمنه من الاستسلام والانقياد والخضوع والطاعة",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "خصلتان لا يجتمعان في مؤمن: البخل وسوء الخلق",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الاسلام بأركانه الخمسة وما يقوم عليه من الأعمال الظاهرة الحسية لا ينهض بالقلب بما ينفي عنه الشرك والبراءة منه",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "العبادة اسم جامع لكل قول وفعل يحبه الله تعالى ويرضاه ظاهرا وباطنا",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ترتفع العادات الى منزلة العبادات اذا اقترنت بنية صالحة واتحضار قلبي مشروع",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ما يثاب تاركها ويعاقب فاعلها تسمى المحرمات ومن أمثلتها الخمر والربا .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ما من شيء اثقل في ميزان المؤمن يوم القيامة من الصلاة على وقتها",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["من حسن الخلق"]
+        },
+        {
+          "titleText": "ما من شيء أثقل في ميزان المؤمن يوم القيامة من حسن الخلق .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "فكر اسلامي",
+      "quiz-type": "arabic",
+      "quizName": "فكر اسلامي ميد 6",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "تزكية النفوس بالاخلاق هدف رئيس في بعثة الانبياء عليهم الصلاة والسلام ومنهم محمد صلى الله عليه وسلم",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "احب الناس الى النبي صلى الله عليه وسلم واقربهم منه يوم القيامة أكثرهم صياما",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["أكثرهم صياما (خطأ)", "أصحاب حسن الخلق(صح)"]
+        },
+        {
+          "titleText": "لأهمية ركن الصلاة فقد جعله النبي صلى الله عليه وسلم عمود الدين وأخبر أنها أول ما يسأل العبد عنه يوم القيامة",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "يستمد المسلم شرائعه من القرآن الكريم الذي أوحاه الله بحروفه، باعتباره المصدر الأصلي الوحيد لهذه الشريعة .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["ليس الوحيد"]
+        },
+        {
+          "titleText": "من الادلة على شمول الشريعة الاسلامية قوله تبارك وتعالى : (وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً وَبُشْرَىٰ لِلْمُسْلِمِينَ )",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "من الامثلة على المثالية الواقعية للاسلام التدرج في معالجة الامراض والاثام المستفحلة في المجتمع, كما هو الحال في التدرج في تحريم الخمر",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "من الامثلة على السنن المستحية بر الوالدين وصلة الرحم والتعاون مع الآخرين على أعمال البر والتقوى .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "بر الوالدين وصلة الرحم والتعاون مع الآخرين هذه الامثلة للفروض والواجبات"
+          ]
+        },
+        {
+          "titleText": "مصطلح الاسلام دعى اليه جميع الانبياء عليهم الصلاة والسلام وقد عرَفه النبي صلى الله عليه وسلم بمعناه وقيده الخاص بهذه الامة ",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الذي منع أرض فدك من أن تورث بعد النبي صلى الله عليه وسلم سيدنا عمر بن الخطاب رضي الله عنه.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["أبو بكر وليس عمر"]
+        },
+        {
+          "titleText": "كان من دلائل النبوة ما أتى الله تعالى النبي صلى الله عليه وسلم من المعجزات الحسية .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "جاء الامر بايتاء الزكاة لا باعطاءها نزولا عند مقاصدية هذا الركن ولما بين الايتاء والاعطاء من تفاوت في الهيئة والاسلوب",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الحج عبادة مالية فرضها الله تعالى على المسلم في العمر مرة واحدة .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["مالية + جسدية"]
+        },
+        {
+          "titleText": "ما طلبه الله تعالى ورسوله صلى الله عليه وسلم من الطاعات على جهة الالزام يسمى الواجب أو الفرض.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "أول ما يحاسب عليه المرء يوم القيامة حقوق العباد",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["الصلاة وليس حقوق العباد"]
+        },
+        {
+          "titleText": "الاجماع والقياس والاستصحاب والاستحسان والعرف هي مصادر فرعية في الشريعة الاسلامية",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الاجماع والقياس والاستصحاب والاستحسان والعرف هي مصادر أصلية في الشريعة الاسلامية",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["مصادر فرعية"]
+        },
+        {
+          "titleText": "من الامثلة على المكروهات: التهاون في الاداب الاسلامية للطعام والشراب والحديث والزيارة",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "حرم الله الشرك اعتقادا وعملا كما حرم ما يفضي اليه كالغلو في الأنبياء والصالحين من باب حفظ الدين .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ما من شيء أثقل في ميزان المؤمن يوم القيامة من بر الوالدين .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["من حسن الخلق"]
+        },
+        {
+          "titleText": "المستحقون لأخذ الزكاة ستة أصناف جاءت في بيانهم النصوص الشرعية .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["ثمانية وليس ستة"]
+        }
+      ]
+    },
+    {
+      "materialName": "فكر اسلامي",
+      "quiz-type": "arabic",
+      "quizName": "فكر اسلامي ميد 5",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": ": خصلتان لا يجتمعان في مؤمن : \"البخل وسوء الخلق\" ؟",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الاسلام بإركانه الخمسة وما يقوم عليه من الاعمال الظاهرة الحسية لا ينهض بالقلب بما ينفي عنه الشرك والبراءة منه؟",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "العبادة اسم جامع لكل قول وفعل يحبه الله تعالى ويرضاه ظاهرًا وباطنًا.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ترتفع العادات إلى منزلة العبادات إذا اقترنت بنية صالحة واستحضار قلب مشروع",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ما يثاب تاركها ويعاقب فاعلها ومن أمثلتها الخمر والربا.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "تعد العبادة في الإسلام التزامًا منضبطًا لما يقوم على توحيد الألوهية.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ما من شيء في ميزان المؤمن يوم القيامة أعظم من الصلاة على وقتها.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "اماطة الأذى عن الطريق شعبة من شعب الإسلام الذي دعى إليه الأنبياء في رسالتهم.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ما من شيء أثقل في ميزان المؤمن يوم القيامة من حسن الخلق.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "يعد حفظ المال من الضرورات التي جاء الإسلام للحفاظ عليها، لذلك شرع البيع وحرم الربا وأقام الحد على السارق.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "فكر اسلامي",
+      "quiz-type": "arabic",
+      "quizName": "فكر اسلامي ميد 5",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "الطعام و الشراب والنوم والبيع والشراء هي أمثلة على المباحات في الإسلام.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "أحب الناس إلى النبي وأقربهم إليه يوم القيامة هم أكثرهم صياما؟",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": [""],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": [""],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": [""],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": [""],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": [""],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": [""],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": [""],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": [""],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    }
   ]
 ]

@@ -5,35 +5,35 @@
     "materialQuizes": [
       {
         "quizName": "mid 1",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "mid 2",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "mid 3",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "mid 4",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "mid 5",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "final 1",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "final 2",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "final 3",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       }
     ]
   },
@@ -49,19 +49,19 @@
     "materialQuizes": [
       {
         "quizName": "HTML, CSS",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "HTML, CSS",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "HTML, CSS",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "HTML, CSS",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
       }
     ]
   },
@@ -71,7 +71,37 @@
     "materialQuizes": [
       {
         "quizName": "Mid 1",
-        "quizDesc": ""
+        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+      }
+    ]
+  },
+  {
+    "materialName": "فكر اسلامي",
+    "quizType": "arabic-quiz",
+    "materialQuizes": [
+      {
+        "quizName": "ميد 1",
+        "quizDesc": "فريق القادة - الجامعة الهاشمية"
+      },
+      {
+        "quizName": "ميد 2",
+        "quizDesc": "فريق القادة - الجامعة الهاشمية"
+      },
+      {
+        "quizName": "ميد 3",
+        "quizDesc": "فريق القادة - الجامعة الهاشمية"
+      },
+      {
+        "quizName": "ميد 4",
+        "quizDesc": "اية خلف"
+      },
+      {
+        "quizName": "ميد 5",
+        "quizDesc": "اية خلف"
+      },
+      {
+        "quizName": "ميد 6",
+        "quizDesc": "اية خلف"
       }
     ]
   },
