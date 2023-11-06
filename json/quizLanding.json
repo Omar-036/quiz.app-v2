@@ -5,35 +5,35 @@
     "materialQuizes": [
       {
         "quizName": "mid 1",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "mid 2",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "mid 3",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "mid 4",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "mid 5",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "final 1",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "final 2",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "final 3",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       }
     ]
   },
@@ -44,24 +44,32 @@
       {
         "type": "warning",
         "text": "The exams do not contain any questions related to table tag in html. Please refer to the Etihad sources of materials and review them"
+      },
+      {
+        "type": "warning",
+        "text": "The questions related to the PHP language are not complete. Please refer to Etihad Source."
       }
     ],
     "materialQuizes": [
       {
         "quizName": "HTML, CSS",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "HTML, CSS",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "HTML, CSS",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       },
       {
         "quizName": "HTML, CSS",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
+      },
+      {
+        "quizName": "PHP",
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       }
     ]
   },
@@ -71,7 +79,11 @@
     "materialQuizes": [
       {
         "quizName": "Mid 1",
-        "quizDesc": "فريق الأتحاد - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
+      },
+      {
+        "quizName": "Mid 2",
+        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       }
     ]
   },
@@ -81,27 +93,27 @@
     "materialQuizes": [
       {
         "quizName": "ميد 1",
-        "quizDesc": "فريق القادة - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق القادة - الجامعة الهاشمية"
       },
       {
         "quizName": "ميد 2",
-        "quizDesc": "فريق القادة - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق القادة - الجامعة الهاشمية"
       },
       {
         "quizName": "ميد 3",
-        "quizDesc": "فريق القادة - الجامعة الهاشمية"
+        "quizDesc": "المصادر: فريق القادة - الجامعة الهاشمية"
       },
       {
         "quizName": "ميد 4",
-        "quizDesc": "اية خلف"
+        "quizDesc": "المصادر: اية خلف"
       },
       {
         "quizName": "ميد 5",
-        "quizDesc": "اية خلف"
+        "quizDesc": "المصادر: اية خلف"
       },
       {
         "quizName": "ميد 6",
-        "quizDesc": "اية خلف"
+        "quizDesc": "المصادر: اية خلف"
       }
     ]
   },

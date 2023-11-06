@@ -1700,6 +1700,166 @@
           "text": []
         }
       ]
+    },
+    {
+      "materialName": "برمجة تطبيقات الانترنت web",
+      "quiz-type": "english",
+      "quizName": "web PHP",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [
+        {
+          "type": "warning",
+          "text": "Due to my limited knowledge of the PHP language, it was challenging to explain all the solutions in a clear manner."
+        }
+      ],
+      "quiz-data": [
+        {
+          "titleText": "What is the output of the following code?",
+          "titleImage": "web/q41.jpg",
+          "answers": [
+            "Welcome to PHP 2",
+            "Welcome to PHP",
+            "2",
+            "Error incompatible data types"
+          ],
+          "rightAnswer": ["Error incompatible data types"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "This error usually happens when you mix different data types"
+          ]
+        },
+        {
+          "titleText": "What is the output of the following code?",
+          "titleImage": "web/q42.jpg",
+          "answers": [
+            "sum = 6 + 20",
+            "sum = 26",
+            "sum = $x + $y",
+            "sum = x + y",
+            "Error"
+          ],
+          "rightAnswer": ["sum = 6 + 20"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "What is the output of the following code?",
+          "titleImage": "web/q43.jpg",
+          "answers": ["oToyota", "BMWToyota", "Toyota", "ToyotaBMW", "Toyota1"],
+          "rightAnswer": ["ToyotaBMW"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "next() is a function used to advance the array pointer to the next element and return its value",
+            "reset() is a function used to reset the array pointer to the first element and return its value"
+          ]
+        },
+        {
+          "titleText": "What is the output of the following code?",
+          "titleImage": "web/q44.jpg",
+          "answers": ["top", "bottom", "middle", "error or not of the choices"],
+          "rightAnswer": ["bottom"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["$$$top => $$bottom => $top => bottom"]
+        },
+        {
+          "titleText": "What is the output of the following code?",
+          "titleImage": "web/q45.jpg",
+          "answers": ["5", "10", "20", "25", "100", "error"],
+          "rightAnswer": ["10"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "Define(\"index\", 5); defines a constant named \"index\" with the value 5",
+            "$array = array(5 => index, \"index\" => 2); creates an associative array with two key-value pairs <br> I-Key \"5\" maps to the constant index, which has a value of 5. <br> II-Key \"index\" maps to the value 2.",
+            "$array[$array[index]] is equivalent to $array[$array[5]], which becomes $array[5]. This accesses the value associated with the key \"5\" in the array, which is the constant index (with a value of 5)",
+            "$array[\"index\"] simply accesses the value associated with the key \"index,\" which is 2. Now, you have 5 (from step 1) multiplied by 2 (from step 2), which equals 10",
+            "So, the output of the code will be 10"
+          ]
+        },
+        {
+          "titleText": "What is the output of the following code?",
+          "titleImage": "web/q46.jpg",
+          "answers": ["web", "final", "webfinal", "Error"],
+          "rightAnswer": ["webfinal"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "$a = \"web\";: The variable $a is assigned the value web.",
+            "$a .= \"final\";: The .= operator is used to append (concatenate) the string \"final\" to the existing value of $a. So, now $a becomes webfinal."
+          ]
+        },
+        {
+          "titleText": "in php we can use _________ to comment a single line?",
+          "titleImage": "",
+          "answers": ["/?", "\\", "&lt;!--   --&gt;", "//"],
+          "rightAnswer": ["//"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "(PHP) the correct syntax for mysql_connect() function is ?",
+          "titleImage": "",
+          "answers": [
+            "mysql_connect(\"user name\", \"password\", \"servername\")",
+            "mysql_connect(\"user name\", \"servername\", \"password\")",
+            "mysql_connect(\"servername\", \"user name\", \"password\")",
+            "None of the given choices"
+          ],
+          "rightAnswer": [
+            "mysql_connect(\"servername\", \"user name\", \"password\")"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "What is the output of the following code?",
+          "titleImage": "web/q48.jpg",
+          "answers": [
+            "89 or 99",
+            "99 or 100",
+            "90.5 of this file and 9.5 of others",
+            "9 or 9"
+          ],
+          "rightAnswer": ["99 or 100"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "$e = (integer) $d + (integer) $c;: Here, you attempt to cast $d and $c to integers. However, when you cast a string to an integer in PHP, it will try to take the numeric characters from the start of the string until a non-numeric character is encountered. In this case, both strings start with numeric characters, so they are successfully cast to integers. Therefore, $e becomes 90 (from $d) + 9 (from $c), which equals 99.",
+            "$f = $d + $c;: This is a regular addition operation between two strings. In PHP, when you use the + operator with strings that start with numeric characters, they are converted to numbers and then added. So, $d is converted to 90.5, and $c is converted to 9.5, resulting in $f being 100 (the sum of 90.5 and 9.5)"
+          ]
+        },
+        {
+          "titleText": "What is the output of the following code?",
+          "titleImage": "web/q49.jpg",
+          "answers": [
+            "Intro. to web development",
+            "Database",
+            "Network",
+            "Data Science"
+          ],
+          "rightAnswer": ["Data Science"],
+          "hasDescription": true,
+          "image": ["web/a49.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "What is the output of the following code?",
+          "titleImage": "web/q50.jpg",
+          "answers": ["3", "1+2", "1.+.2", "Error"],
+          "rightAnswer": ["1+2"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
     }
   ],
   [
@@ -1794,11 +1954,11 @@
           "text": []
         },
         {
-          "titleText": "Whatdoes the following code do:",
+          "titleText": "What does the following code do:",
           "titleImage": "web-advanced/q6.jpg",
           "answers": [
             "it displays on the screen the image that itsname saved in pictures[7].",
-            "itpicks a random image from the pictures array and displays it",
+            "it picks a random image from the pictures array and displays it",
             "it picks a random image from the pictures array and saves it in the current directory",
             "it displays on the screen all the seven images from the pictures array on the screen"
           ],
@@ -1835,6 +1995,145 @@
           "hasDescription": true,
           "image": [],
           "text": ["-_-"]
+        },
+        {
+          "titleText": "What is the result of the alert statement after executing the following JavaScript code:",
+          "titleImage": "web-advanced/q9.jpg",
+          "answers": ["65m", "65h", "Am", "90a"],
+          "rightAnswer": ["65m"],
+          "hasDescription": true,
+          "image": ["web-advanced/a9.jpg"],
+          "text": []
+        },
+        {
+          "titleText": "To create a new variable with the initial value representing the current date/time of the client's computer we can use",
+          "titleImage": "",
+          "answers": [
+            "var datatime = new Date();",
+            "var datetime = current.getDay();",
+            "datetime= date():",
+            "var datetime = current.toLocalString();"
+          ],
+          "rightAnswer": ["var datatime = new Date();"],
+          "hasDescription": true,
+          "image": ["web-advanced/a10.jpg"],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "برمجة تطبيقات الانترنت المتقدمة web advanced",
+      "quiz-type": "english",
+      "quizName": "web advanced mid 2",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "Which of the following html code given the output in the figure ?",
+          "titleImage": "web-advanced/q11.jpg",
+          "answers": [
+            "&lt;p style=\"-webkit-column-count: 4; -webkit-column-rule: 1px outset red;\" &gt; Web intelligence is the area of scientific research and development&lt;/p&gt;",
+            "&lt;em style=\"-webkit-column-count: 3; -webkit-column-rule: 1px outset red;\" &gt; Web intelligence is the area of scientific research and development&lt;/em&gt;",
+            "&lt;p style=\"-webkit-column-count: 3; -webkit-column-rule: 1px outset red;\" &gt; Web intelligence is the area of scientific research and development&lt;/p&gt;",
+            "&lt;p style=\"-webkit-column-count: 3; -webkit-column-rule: 1px double red;\" &gt; Web intelligence is the area of scientific research and development&lt;/p&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;p style=\"-webkit-column-count: 3; -webkit-column-rule: 1px outset red;\" &gt; Web intelligence is the area of scientific research and development&lt;/p&gt;",
+            "<p style=\"-webkit-column-count: 3; -webkit-column-rule: 1px outset red;\" > Web intelligence is the area of scientific research and development</p>"
+          ],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "The column-rule property does not work directly on the em tag because it is designed to work on block-level elements or elements with a specified width and height. Inline elements like em do not have a concept of columns."
+          ]
+        },
+        {
+          "titleText": "The JavaScript statement that will change the background color of the following div section to red is:",
+          "titleImage": "web-advanced/q12.jpg",
+          "answers": [
+            "document.getElementById(\"section1\").setAttribute(\"style\", \"background-color:red\");",
+            "section1.class=\"background-color:red;\"",
+            "div.className=\"background-color: red;\"",
+            "section1.className=\"classB\""
+          ],
+          "rightAnswer": [
+            "document.getElementById(\"section1\").setAttribute(\"style\", \"background-color:red\");"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "The html code which gives the following output is:",
+          "titleImage": "web-advanced/q13.jpg",
+          "answers": [
+            "&lt;p style=\"text-shadow: -5px -20px 2px green;\"&gt; Text Shadow &lt;/p&gt;",
+            "&lt;p style=\"text-shadow: 5px 20px 2px green;\"&gt; Text Shadow &lt;/p&gt;",
+            "&lt;p class=\"text-shadow: 5px 20px 2px green;\"&gt; Text Shadow &lt;/p&gt;",
+            "&lt;p style=\"text-shadow: 5px 20px 2px red;\"&gt; Text Shadow &lt;/p&gt;",
+            "&lt;p style=\"text-shadow: 5px 20px 200px green;\"&gt; Text Shadow &lt;/p&gt;"
+          ],
+          "rightAnswer": [
+            "&lt;p style=\"text-shadow: 5px 20px 2px green;\"&gt; Text Shadow &lt;/p&gt;",
+            "<p style=\"text-shadow: 5px 20px 2px green;\"> Text Shadow </p>"
+          ],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "What is the JavaScript code that saves the value from a textbox (id = \"kk\") to a variable named \"temp\"?",
+          "titleImage": "web-advanced/q14.jpg",
+          "answers": [
+            "var temp = window.forms.input.value",
+            "var temp = document.form.kk;",
+            "var temp = document.getElementById(\"kk\").value;",
+            "var temp = document.getElementByld(\"kk\").innerHTML:"
+          ],
+          "rightAnswer": ["var temp = document.getElementById(\"kk\").value;"],
+          "hasDescription": true,
+          "image": [],
+          "text": [
+            "innerHTML for text between input tag in this situation is empty"
+          ]
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["", "", "", ""],
+          "rightAnswer": [""],
+          "hasDescription": true,
+          "image": [""],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["", "", "", ""],
+          "rightAnswer": [""],
+          "hasDescription": true,
+          "image": [""],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["", "", "", ""],
+          "rightAnswer": [""],
+          "hasDescription": true,
+          "image": [""],
+          "text": []
+        },
+        {
+          "titleText": "",
+          "titleImage": "",
+          "answers": ["", "", "", ""],
+          "rightAnswer": [""],
+          "hasDescription": true,
+          "image": [""],
+          "text": []
         },
         {
           "titleText": "",

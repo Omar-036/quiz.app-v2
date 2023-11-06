@@ -1,5 +1,3 @@
-import { putMarks } from "./quizLanding.js";
-
 $(function () {
   ("use strict");
   $(".header__list").on("click", function (e) {
@@ -84,7 +82,7 @@ $(function () {
       const questionTitleText = `<h3 class="quiz-data__title--text"><span>${
         question["answers"].length !== 0
           ? String(curIndex + 1).length > 1
-            ? (curIndex += 1)
+            ? (curIndex += 1) + " - "
             : "0" + (curIndex += 1) + " - "
           : ""
       } </span>${textCapitalizeFormat(question["titleText"])}</h3>`;
@@ -193,7 +191,16 @@ $(function () {
             // SHOW QUIZ RESULT WHEN THE QUIZ IS END
 
             if (numberOfQuestions === rightAnswers + wrongAnswers) {
-              putMarks(rightAnswers, wrongAnswers, numberOfQuestions);
+              let datat = JSON.parse(localStorage.getItem("grads"));
+
+              datat[localStorage.getItem("quizIndex")][
+                localStorage.getItem("quizNumber")
+              ] = {
+                grade: rightAnswers,
+                numberOfQuestions,
+              };
+
+              localStorage.setItem("grads", JSON.stringify(datat));
 
               appendQuizResult();
               $(".quiz__quiz-result").fadeIn(150);

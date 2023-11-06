@@ -30,7 +30,7 @@ html {
   @media only screen and (max-width: 37.5em) {
     html {
       font-size: 37.5%; } }
-  @media only screen and (max-width: 18.75em) {
+  @media only screen and (max-width: 25em) {
     html {
       font-size: 31.25%; } }
   html::-webkit-scrollbar {
@@ -250,6 +250,9 @@ img.active {
   align-items: center;
   gap: 5rem;
   overflow: hidden; }
+  @media only screen and (max-width: 50em) {
+    .section-landing {
+      justify-content: center; } }
 
 .section-materials {
   background-color: #333;
@@ -738,6 +741,7 @@ img.active {
 
 .quiz-box {
   text-decoration: none;
+  position: relative;
   background-image: var(--bg-image);
   padding: 4rem;
   border-radius: 1rem;
@@ -750,7 +754,7 @@ img.active {
   @media only screen and (max-width: 62.5em) {
     .quiz-box {
       flex-basis: calc(50% - 2rem); } }
-  @media only screen and (max-width: 18.75em) {
+  @media only screen and (max-width: 25em) {
     .quiz-box {
       flex-basis: calc(100%); } }
   .quiz-box:hover {
@@ -759,6 +763,23 @@ img.active {
   .quiz-box:active {
     transform: translateY(-0.3rem);
     box-shadow: 0 4rem 4rem rgba(0, 0, 0, 0.2); }
+  .quiz-box__grade {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    top: -1.5rem;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    direction: ltr;
+    background-image: var(--bg-image);
+    box-shadow: -1px 1px 10px #ddd;
+    font-family: var(--font-english); }
   .quiz-box__heading {
     font-size: 2.8rem;
     text-transform: capitalize; }

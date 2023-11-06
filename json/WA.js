@@ -151,3 +151,62 @@ console.log(strng);
 // strng
 
 // The city of Petra, capital of the Nabataean Arabs,
+
+// Q100
+// What is the result of the alert statement after executing the following JavaScript code:
+
+var nm = "Ahmad";
+
+var str = "";
+
+str += nm.charCodeAt(0); // charCode(A) == 65
+
+console.log(str);
+
+// charAt(0) == 'A'
+// charAt(1) == 'h
+str += nm.charAt(2); // charAt(2) == 'm'
+
+console.log(str);
+
+// (2 Points)
+
+// 65m
+
+// 65h
+
+// Am
+
+// 90a
+
+// Q221
+// To create a new variablewith the initial value representing the current date/time of the client's computer we can use * (1 Point)
+
+var datatime = new Date();
+console.log(datatime);
+
+// var datetime = current.getDay();
+// console.log(datatime);
+
+// datetime= date():
+// console.log(datatime);
+
+// var datetime = current.toLocalString();
+// console.log(datatime);
+
+// The JavaScript statement that will change the background color of the following div section to red is:
+
+<div id="section1"> hello. I am here </div>;
+
+// (1 Point)
+
+document
+  .getElementById("section1")
+  .setAttribute("style", "background-color:red");
+
+// section1.class="background-color:red;
+
+// div.className="background-color: red";
+
+// section1.className="classB"
+<input type="text" id="kk"></input>;
