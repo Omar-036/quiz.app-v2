@@ -327,7 +327,7 @@ $(function () {
       } else {
         nextStep = `
     <div class="quiz__next-step">
-          <a href="quizArea.html" class="quiz__next-step--previous pre">الأمتحان السابق</a>
+          <a href="quizArea.html" class="quiz__next-step--previous">الأمتحان السابق</a>
           <a href="quizArea.html" class="quiz__next-step--re re">أعادة الأمتحان</a>
           <a href="quizArea.html" class="quiz__next-step--next next">الأمتحان التالي</a>
         </div>
@@ -377,6 +377,11 @@ $(function () {
     $(".overlay").on("click", function () {
       $("img.active").removeClass("active");
       $(this).fadeOut(50);
+    });
+
+    $(window).on("scroll", () => {
+      $("img").removeClass("active");
+      $(".overlay").fadeOut(50);
     });
 
     showQuestionDescription();

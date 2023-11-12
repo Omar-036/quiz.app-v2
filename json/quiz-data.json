@@ -2930,7 +2930,126 @@
     {
       "materialName": "فكر اسلامي",
       "quiz-type": "arabic",
-      "quizName": "فكر اسلامي ميد 5",
+      "quizName": "فكر اسلامي ميد 7",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "من خصائص الشريعة الاسلامية أنها ربانية المصدر والغاية والتي تعني أن هذه الشريعة من عند الله وتهدف إلى بلوغ رضاه",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "من مقتضيات الأبوة والأمومة السليمة, حسن تربية الابناء وعهدهم بالحنو والرعاية والانفاق عليهم",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "فرض الصيام خاص بأمة محمد صلى الله عليه وسلم",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["فرضهم على الامم السابقة كمان"]
+        },
+        {
+          "titleText": "من الادلة على شمول الشريعة الاسلامية قوله تبارك وتعالى : (وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ وَهُدًى وَرَحْمَةً وَبُشْرَىٰ لِلْمُسْلِمِينَ )",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ما طلبه الله تعالى ورسوله صلى الله عليه وسلم من الطاعات على جهة الندب والاختيار يسمى السنة المستحبة.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "المسلم يستقيم سلوكه على قدر إستسلامه خوفاََ من عقاب الله جل وعلا وطمعاََ في ثوابه وجزائه سبحانه وتعالى",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "المحرمات أقوال وأفعال لا يليق للمسلم الللبس فيها لكنها مما يعفو الله عنه ولا يحاسب عليه",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["المكروهات وليس المحرمات"]
+        },
+        {
+          "titleText": "من الادلة على عدالة الشريعة الاسلامية, قول الصادق الامين صلى الله عليه وسلم :( ألا لا فضل لعربي على أعجمي ولا لعجمي على عربي ولا لأحمر على اسود ولا لأسود على أحمر إلا بالتقوى ).",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "تعد الصلوات الخمس الركن الثالث من أركان السلام",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["الركن الثاني"]
+        },
+        {
+          "titleText": "شرع الله تبارك وتعالى الزواج لمقصد حفظ الفرض",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "امتلاك الانسان للمال بطريق مشروع يسوغ له حرية انفاقه كما يشاء",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": true,
+          "image": [],
+          "text": ["يجب صرفه في المباحات وليس كما يشاء"]
+        },
+        {
+          "titleText": "من خصائص الشريعة الاسلامية أنها ربانية المصدر والغاية والتي تعني أن هذه الشريعة من عند الله وتهدف إلى بلوغ رضاه",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "فكر اسلامي",
+      "quiz-type": "arabic",
+      "quizName": "فكر اسلامي ميد 8",
       "shuffleQuestions": true,
       "shuffleAnswers": true,
 
@@ -3031,7 +3150,7 @@
     {
       "materialName": "فكر اسلامي",
       "quiz-type": "arabic",
-      "quizName": "فكر اسلامي ميد 5",
+      "quizName": "فكر اسلامي ميد 9",
       "shuffleQuestions": true,
       "shuffleAnswers": true,
 
@@ -3056,73 +3175,264 @@
           "text": []
         },
         {
-          "titleText": "",
+          "titleText": "لآهمية ركن الصلاة فقد جعله النبي عمود الدين واخبر انها اول ما يسأل عنه العبد يوم القيامة؟",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": [""],
+          "rightAnswer": ["صحيحة"],
           "hasDescription": false,
           "image": [],
           "text": []
         },
         {
-          "titleText": "",
+          "titleText": "يستمد المسلم شرائعه من القرءان الكريم الذي اوحاه اللّه بحروفه, باعتباره المصدر الأصلي الوحيد لهذه الشريعة؟",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": [""],
+          "rightAnswer": ["خطأ"],
           "hasDescription": false,
           "image": [],
           "text": []
         },
         {
-          "titleText": "",
+          "titleText": "من الأدلة على شمول الشريعة الأسلامية قوله تعالى ( ونزلنا عليك القرءان تبيانا لكل شيء وهدى ورحمة وبشرى للمسلمين )؟",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": [""],
+          "rightAnswer": ["صحيحة"],
           "hasDescription": false,
           "image": [],
           "text": []
         },
         {
-          "titleText": "",
+          "titleText": "الحج عبادة مالية فرضها الله تعالى على كل مسلم في العمر مرة واحدة",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": [""],
+          "rightAnswer": ["خطأ"],
           "hasDescription": false,
           "image": [],
           "text": []
         },
         {
-          "titleText": "",
+          "titleText": "ما من شيء اثقل في ميزان المؤمن يوم القيامة من بر الوالدين؟",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": [""],
+          "rightAnswer": ["خطأ"],
           "hasDescription": false,
           "image": [],
           "text": []
         },
         {
-          "titleText": "",
+          "titleText": "تعد العبادة في الأسلام التزاما منضبطا لما يقوم على توحيد الربوبية؟",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": [""],
+          "rightAnswer": ["خطأ"],
           "hasDescription": false,
           "image": [],
           "text": []
         },
         {
-          "titleText": "",
+          "titleText": "قولنا ان الله لا يحاسب الانسان على ما لا يقدر عليه ولم يكلفه فوق طاقته يندرج تحت خاصية الواقعية للشعريعة",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": [""],
+          "rightAnswer": ["صحيحة"],
           "hasDescription": false,
           "image": [],
           "text": []
         },
         {
-          "titleText": "",
+          "titleText": "إماطة الاذى شعبة من شعب الايمان الذي تتوثق في عراه الاعمال بمحالها من توحيد الالوهية",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": [""],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        }
+      ]
+    },
+    {
+      "materialName": "فكر اسلامي",
+      "quiz-type": "arabic",
+      "quizName": "فكر اسلامي ميد 10",
+      "shuffleQuestions": true,
+      "shuffleAnswers": true,
+
+      "alert": [],
+      "quiz-data": [
+        {
+          "titleText": "إماطة الاذى عن الطريق عمل محمود وله وجاهته في البيئة والمجتمع وهذه النظرة التي يراعيها المسلم في تقيده بذلك السلوك",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "تزكية النفوس بالاخلاق هدف رئيس في بعثة الانبياء عليهم الصلاة والسلام ومنهم محمد صلى الله عليه وسلم",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "من الامثلة على السنن المستحية بر الوالدين وصلة الرحم والتعاون مع الآخرين على أعمال البر والتقوى .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "مصطلح الاسلام دعى اليه جميع الانبياء عليهم الصلاة والسلام وقد عرَفه النبي صلى الله عليه وسلم بمعناه وقيده الخاص بهذه الامة ",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الذي منع أرض فدك من أن تورث بعد النبي صلى الله عليه وسلم سيدنا عمر بن الخطاب رضي الله عنه.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "كان من دلائل النبوة ما أتى الله تعالى النبي صلى الله عليه وسلم من المعجزات الحسية .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "ما طلبه الله تعالى ورسوله صلى الله عليه وسلم من الطاعات على جهة الالزام يسمى الواجب أو الفرض.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "أول ما يحاسب عليه المرء يوم القيامة حقوق العباد",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الأجماع والقياس والاستصحاب والاستحسان والعرف هي مصادر فرعية في الشريعة الاسلامية.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الأجماع والقياس والاستصحاب والاستحسان والعرف هي مصادر أصلية في الشريعة الاسلامية.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "من الامثلة على المكروهات: التهاون في الاداب الاسلامية للطعام والشراب والحديث والزيارة",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "تعد العبادة في الأسلام التزاما منضبطا لما يقوم على توحيد الربوبية؟",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "المستحقون لأخذ الزكاة ستة أصناف جاءت في بيانهم النصوص الشرعية .",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "أعظم مقاصد الحج تهذيب سلوك المسلم الحاج",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "المستحقون لأخذ الزكاة هم ثمانية أصناف",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "فرض الصيام خاص بأمة محمد صلى الله عليه وسلم",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الزكاة عبادة مالية صرفة تقوم على مراعاة الجانب المادي دون النظر للأعتبارات السلوكية.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "تعد الصلوات الخمس الركن الثالث من أركان السلام",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "الذي منع أرض فدك من أن تورث بعد النبي صلى الله عليه وسلم سيدنا أبو بكر رضي الله عنه.",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["صحيحة"],
+          "hasDescription": false,
+          "image": [],
+          "text": []
+        },
+        {
+          "titleText": "امتلاك الانسان للمال بطريق مشروع يسوغ له حرية انفاقه كما يشاء",
+          "titleImage": "",
+          "answers": ["صحيحة", "خطأ"],
+          "rightAnswer": ["خطأ"],
           "hasDescription": false,
           "image": [],
           "text": []

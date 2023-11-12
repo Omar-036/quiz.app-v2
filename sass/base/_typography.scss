@@ -39,21 +39,45 @@
     letter-spacing: 1px;
     cursor: pointer;
     text-transform: capitalize;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0.8rem;
+      height: 100%;
+
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
   }
 
   &--success {
     background-color: #efe;
-    border: 1px solid #ded;
+    // border: 1px solid #ded;
     color: #9a9;
+
+    &::before {
+      background-color: #99cc33;
+    }
   }
   &--warning {
     background-color: #fdf7df;
-    border: 1px solid #feec6f;
+    // border: 1px solid #feec6f;
     color: #c9971c;
+
+    &::before {
+      background-color: #ffcc00;
+    }
   }
   &--error {
     background-color: #fee;
-    border: 1px solid #edd;
+    // border: 1px solid #edd;
     color: #a66;
+    &::before {
+      background-color: #cc3300;
+    }
   }
 }

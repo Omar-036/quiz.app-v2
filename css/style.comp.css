@@ -30,7 +30,7 @@ html {
   @media only screen and (max-width: 37.5em) {
     html {
       font-size: 37.5%; } }
-  @media only screen and (max-width: 18.75em) {
+  @media only screen and (max-width: 25em) {
     html {
       font-size: 31.25%; } }
   html::-webkit-scrollbar {
@@ -119,19 +119,32 @@ img.active {
     font-size: 2rem;
     letter-spacing: 1px;
     cursor: pointer;
-    text-transform: capitalize; }
+    text-transform: capitalize;
+    position: relative; }
+    .alert h3::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0.8rem;
+      height: 100%;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px; }
   .alert--success {
     background-color: #efe;
-    border: 1px solid #ded;
     color: #9a9; }
+    .alert--success::before {
+      background-color: #99cc33; }
   .alert--warning {
     background-color: #fdf7df;
-    border: 1px solid #feec6f;
     color: #c9971c; }
+    .alert--warning::before {
+      background-color: #ffcc00; }
   .alert--error {
     background-color: #fee;
-    border: 1px solid #edd;
     color: #a66; }
+    .alert--error::before {
+      background-color: #cc3300; }
 
 @keyframes moveRight {
   0% {
@@ -245,6 +258,7 @@ img.active {
   background-image: var(--bg-image);
   height: 85vh;
   grid-column: col-start 1 / col-end 8;
+  justify-content: center;
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -738,6 +752,7 @@ img.active {
 
 .quiz-box {
   text-decoration: none;
+  position: relative;
   background-image: var(--bg-image);
   padding: 4rem;
   border-radius: 1rem;
@@ -750,7 +765,7 @@ img.active {
   @media only screen and (max-width: 62.5em) {
     .quiz-box {
       flex-basis: calc(50% - 2rem); } }
-  @media only screen and (max-width: 18.75em) {
+  @media only screen and (max-width: 25em) {
     .quiz-box {
       flex-basis: calc(100%); } }
   .quiz-box:hover {
@@ -759,6 +774,23 @@ img.active {
   .quiz-box:active {
     transform: translateY(-0.3rem);
     box-shadow: 0 4rem 4rem rgba(0, 0, 0, 0.2); }
+  .quiz-box__grade {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    top: -1.5rem;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    direction: ltr;
+    background-image: var(--bg-image);
+    box-shadow: -1px 1px 10px #ddd;
+    font-family: var(--font-english); }
   .quiz-box__heading {
     font-size: 2.8rem;
     text-transform: capitalize; }

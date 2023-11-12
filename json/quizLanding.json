@@ -43,11 +43,7 @@
     "alert": [
       {
         "type": "warning",
-        "text": "The exams do not contain any questions related to table tag in html. Please refer to the Etihad sources of materials and review them"
-      },
-      {
-        "type": "warning",
-        "text": "The questions related to the PHP language are not complete. Please refer to Etihad Source."
+        "text": "-The exams do not contain any questions related to table tag in html. Please refer to the Etihad sources of materials and review them <br> -The questions related to the PHP language are not complete. Please refer to Etihad Source."
       }
     ],
     "materialQuizes": [
@@ -80,10 +76,6 @@
       {
         "quizName": "Mid 1",
         "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
-      },
-      {
-        "quizName": "Mid 2",
-        "quizDesc": "المصادر: فريق الأتحاد - الجامعة الهاشمية"
       }
     ]
   },
@@ -114,6 +106,22 @@
       {
         "quizName": "ميد 6",
         "quizDesc": "المصادر: اية خلف"
+      },
+      {
+        "quizName": "ميد 7",
+        "quizDesc": "المصادر: اية خلف"
+      },
+      {
+        "quizName": "ميد 8",
+        "quizDesc": "المصادر: IT Zone"
+      },
+      {
+        "quizName": "ميد 9",
+        "quizDesc": "المصادر: IT Zone"
+      },
+      {
+        "quizName": "ميد 10",
+        "quizDesc": "المصادر: IT Zone"
       }
     ]
   },
