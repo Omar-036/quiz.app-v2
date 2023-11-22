@@ -319,7 +319,7 @@ $(function () {
 
         
     <div class="quiz__next-step">
-          <a href="quizArea.html"  class="quiz__next-step--previous pre">previous exam</a>
+          <a href="quizLanding.html"  class="quiz__next-step--previous">quizzes page</a>
           <a href="quizArea.html" class="quiz__next-step--re re">Re-examination</a>
           <a href="quizArea.html" class="quiz__next-step--next next">next exam</a>
         </div>
@@ -327,7 +327,7 @@ $(function () {
       } else {
         nextStep = `
     <div class="quiz__next-step">
-          <a href="quizArea.html" class="quiz__next-step--previous">الأمتحان السابق</a>
+          <a href="quizLanding.html" class="quiz__next-step--previous">قائمة الأختبارات</a>
           <a href="quizArea.html" class="quiz__next-step--re re">أعادة الأمتحان</a>
           <a href="quizArea.html" class="quiz__next-step--next next">الأمتحان التالي</a>
         </div>

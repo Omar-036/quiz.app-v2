@@ -2100,58 +2100,85 @@
           ]
         },
         {
-          "titleText": "",
+          "titleText": "One of the following is considered a declaration of anarray of two dimensions in which there are three rows. There are two, one and three columns in the first, second and third rows respectively:",
           "titleImage": "",
-          "answers": ["", "", "", ""],
-          "rightAnswer": [""],
+          "answers": [
+            "var array2 = [[1, 2], [3, 5], [4, 5, 6]];",
+            "var array2 = {{ 1, 2), (4, 5, 6}};",
+            "var array2 = [[1, 2], [3], [4, 5, 6]];",
+            "var array2 = [[1, 2], [4, 5, 6]];"
+          ],
+          "rightAnswer": ["var array2 = [[1, 2], [3], [4, 5, 6]];"],
           "hasDescription": true,
-          "image": [""],
+          "image": ["web-advanced/a15.jpg"],
           "text": []
         },
         {
-          "titleText": "",
-          "titleImage": "",
-          "answers": ["", "", "", ""],
-          "rightAnswer": [""],
+          "titleText": "What is the content of the array numb after executing the following JavaScript Code:",
+          "titleImage": "web-advanced/q16.jpg",
+          "answers": ["246013", "246", "012346", "643210"],
+          "rightAnswer": ["643210"],
           "hasDescription": true,
-          "image": [""],
+          "image": [],
+          "text": [
+            "array.sort() => By default, an array is sorted in ascending order",
+            "return (x - y) => Sorting in ascending order",
+            "return (y - x) => Sorting in descending order"
+          ]
+        },
+        {
+          "titleText": "Which of the following is the correct JavaScript code to assign \"rideacamel.jpg\" image to the <br><br> image defined in the body as follows: <br><br> \"&lt;img src = 'petra.jpg' id='goodImg' width='100px' height='200px' alt='petra'&gt;\" ",
+          "titleImage": "",
+          "answers": [
+            "good!mg = \"rideacamel.jpg\";",
+            "goodImg.open(\"rideacamel.jpg\");",
+            "doucument.getElementById(\"goodImg\").setAttribute(\"src\",\"rideacamel.jpg\");",
+            "goodImg.src(\"x.jpg\", \"rideacamel.jpg\");"
+          ],
+          "rightAnswer": [
+            "doucument.getElementById(\"goodImg\").setAttribute(\"src\",\"rideacamel.jpg\");"
+          ],
+          "hasDescription": false,
+          "image": [],
           "text": []
         },
         {
-          "titleText": "",
-          "titleImage": "",
-          "answers": ["", "", "", ""],
-          "rightAnswer": [""],
+          "titleText": "What is the output of the following Javascript code:",
+          "titleImage": "web-advanced/q18.jpg",
+          "answers": [
+            "Q, U, A",
+            "Technologies",
+            "Point",
+            "Q, P, T",
+            "Techno",
+            "Qualiyt, Point, Technologies"
+          ],
+          "rightAnswer": ["Qualiyt, Point, Technologies"],
           "hasDescription": true,
-          "image": [""],
+          "image": ["web-advanced/a18.jpg"],
           "text": []
         },
         {
-          "titleText": "",
-          "titleImage": "",
-          "answers": ["", "", "", ""],
-          "rightAnswer": [""],
+          "titleText": "What is the output of the following Javascript code:",
+          "titleImage": "web-advanced/q19.jpg",
+          "answers": ["22.10 21.45", "28.4 87.34", "26.3 25.56", "20.90 30.27"],
+          "rightAnswer": ["20.90 30.27"],
           "hasDescription": true,
-          "image": [""],
+          "image": ["web-advanced/a19.jpg"],
           "text": []
         },
         {
-          "titleText": "",
-          "titleImage": "",
-          "answers": ["", "", "", ""],
-          "rightAnswer": [""],
+          "titleText": "What is the content of the array numb after executing the following JavaScript Code:",
+          "titleImage": "web-advanced/q20.jpg",
+          "answers": ["1 3 9", "3 2 1", "1 2 3 3 6 9", "9 6 3 3 2 1"],
+          "rightAnswer": ["1 2 3 3 6 9"],
           "hasDescription": true,
-          "image": [""],
-          "text": []
-        },
-        {
-          "titleText": "",
-          "titleImage": "",
-          "answers": ["", "", "", ""],
-          "rightAnswer": [""],
-          "hasDescription": true,
-          "image": [""],
-          "text": []
+          "image": [],
+          "text": [
+            "array.sort() => By default, an array is sorted in ascending order",
+            "return (x - y) => Sorting in ascending order",
+            "return (y - x) => Sorting in descending order"
+          ]
         }
       ]
     }

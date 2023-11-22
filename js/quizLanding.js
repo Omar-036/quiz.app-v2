@@ -22,13 +22,28 @@ $(function () {
         }
       }
       localStorage.setItem("grads", JSON.stringify(datat));
+    } else if (
+      data.length !== JSON.parse(localStorage.getItem("grads")).length
+    ) {
+      let datatU = JSON.parse(localStorage.getItem("grads"));
+      for (
+        let i = JSON.parse(localStorage.getItem("grads")).length;
+        i < data.length;
+        i++
+      ) {
+        datatU[i] = [];
+      }
+      localStorage.setItem("grads", JSON.stringify(datatU));
     }
 
     // Check If The material have exams
+
     if (
-      data[localStorage.getItem("quizIndex")]["materialQuizes"].length === 0
+      data[localStorage.getItem("quizIndex")]?.materialQuizes.length === 0 ||
+      !data[localStorage.getItem("quizIndex")]?.materialQuizes
     ) {
       $(".not-found").show(0);
+      return;
     }
 
     $(document).prop(

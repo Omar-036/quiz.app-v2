@@ -196,17 +196,99 @@ console.log(datatime);
 
 // The JavaScript statement that will change the background color of the following div section to red is:
 
-<div id="section1"> hello. I am here </div>;
+// {/* <div id="section1"> hello. I am here </div>; */}
 
 // (1 Point)
 
-document
-  .getElementById("section1")
-  .setAttribute("style", "background-color:red");
+// document
+//   .getElementById("section1")
+//   .setAttribute("style", "background-color:red");
 
 // section1.class="background-color:red;
 
 // div.className="background-color: red";
 
 // section1.className="classB"
-<input type="text" id="kk"></input>;
+// {/* <input type="text" id="kk"></input>; */}
+// Q123
+// One of the following is considered a declaration of anarray of two dimensions in which there are three rows. There are two, one and three columns in the first, second and third rows respectively: * (1 Point)
+
+var array2 = [
+  [1, 2],
+  [3, 5],
+  [4, 5, 6],
+];
+
+// var array2 = {{ 1, 2), (4, 5, 6}};
+
+console.log(array2);
+var array2 = [[1, 2], [3], [4, 5, 6]];
+
+console.log(array2);
+var array2 = [
+  [1, 2],
+  [4, 5, 6],
+];
+console.log(array2);
+
+// Q133
+// What is the content of the array numb after executing the following JavaScript Code:
+
+var numb = [2, 4, 6, 0, 1, 3];
+
+numb.sort(comp);
+console.log(numb);
+
+function comp(x, y) {
+  console.log(x);
+  console.log(y);
+
+  return parseInt(y) - parseInt(x);
+}
+
+// console.log(comp());
+
+// (2 Points)
+
+// 246013
+
+// 246
+
+// 012346
+
+// 643210
+
+// Q1232
+// What is the output of thefollowing Javascript code:
+
+var qpt = "Qualiyt Point Technologies";
+
+var result = qpt.split(" ");
+console.log(result);
+
+console.log(result[0] + ", " + result[1] + ", " + result[2]);
+
+// Q12093
+
+var y = 0.1,
+  x;
+
+for (var ray = 2; ray <= 3; ++ray) {
+  x = 10 * Math.pow(0.2 + y, ray);
+  console.log(x);
+
+  console.log(ray);
+  console.log(x.toFixed(2), typeof x.toFixed(2));
+  console.log(ray + x.toFixed(2));
+  // .................... 2 + '0.90' = 20.90
+}
+
+// Q12903
+
+var numb = [3, 9, 6, 2, 1, 3];
+
+numb.sort(comp);
+
+function comp(x, y) {
+  return parseInt(x) - parseInt(y);
+}
