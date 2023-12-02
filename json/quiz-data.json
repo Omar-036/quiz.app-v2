@@ -1963,7 +1963,7 @@
             "it displays on the screen all the seven images from the pictures array on the screen"
           ],
           "rightAnswer": [
-            "itpicks a random image from the pictures array and displays it"
+            "it picks a random image from the pictures array and displays it"
           ],
           "hasDescription": false,
           "image": [],
@@ -2251,7 +2251,7 @@
           "titleText": "اماطة الأذى عن الطريق شعبة من شعب الإسلام الذي دعى اليه الانبياء في رسالاتهم.",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": ["صحيحة"],
+          "rightAnswer": ["خطأ"],
           "hasDescription": false,
           "image": [],
           "text": []
@@ -2278,7 +2278,7 @@
           "titleText": "العبادة في الاسلام إلتزاماً منضبطاً لما يقوم عليه توحيد الربوبية.",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": ["صحيحة"],
+          "rightAnswer": ["خطأ"],
           "hasDescription": false,
           "image": [],
           "text": []
@@ -2498,7 +2498,7 @@
           "titleText": "من شيء أثقل في ميزان المؤمن يوم القيامة من الصلاة على وقتها .",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": ["صحيحة"],
+          "rightAnswer": ["خطأ"],
           "hasDescription": false,
           "image": [],
           "text": []
@@ -2679,7 +2679,7 @@
           "text": ["أوجب"]
         },
         {
-          "titleText": "قولنا ان الله لا يحاسب الانسان على ما لا يقدر عليه ولم يكلفه فوق طاقته يندرج تحت خاصية الواقعية للشعريعة",
+          "titleText": "قولنا ان الله لا يحاسب الانسان على ما لا يقدر عليه ولم يكلفه فوق طاقته يندرج تحت خاصية الواقعية للشريعة",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
           "rightAnswer": ["خطأ"],
@@ -3259,7 +3259,7 @@
           "titleText": "قولنا ان الله لا يحاسب الانسان على ما لا يقدر عليه ولم يكلفه فوق طاقته يندرج تحت خاصية الواقعية للشعريعة",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": ["صحيحة"],
+          "rightAnswer": ["خطأ"],
           "hasDescription": false,
           "image": [],
           "text": []
@@ -3405,7 +3405,7 @@
           "titleText": "أعظم مقاصد الحج تهذيب سلوك المسلم الحاج",
           "titleImage": "",
           "answers": ["صحيحة", "خطأ"],
-          "rightAnswer": ["خطأ"],
+          "rightAnswer": ["صحيحة"],
           "hasDescription": false,
           "image": [],
           "text": []
