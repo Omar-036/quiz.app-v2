@@ -126,15 +126,79 @@
       {
         "quizName": "ميد 10",
         "quizDesc": "المصادر: IT Zone"
+      },
+      {
+        "quizName": "فاينل 1",
+        "quizDesc": "المصادر: اية خلف"
+      },
+      {
+        "quizName": "فاينل 2",
+        "quizDesc": "المصادر: اية خلف"
+      },
+      {
+        "quizName": "فاينل 3",
+        "quizDesc": "المصادر: اية خلف"
+      },
+      {
+        "quizName": "فاينل 4",
+        "quizDesc": "المصادر: اية خلف"
+      },
+      {
+        "quizName": "فاينل 5",
+        "quizDesc": "المصادر: اية خلف"
       }
     ]
   },
   {
     "materialName": "علوم عسكربة",
-    "materialQuizes": []
+    "quizType": "arabic-quiz",
+    "materialQuizes": [
+      {
+        "quizName": "درس 1",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "درس 2",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "درس 3",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "درس 4",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "درس 5",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "درس 6",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "درس 7",
+        "quizDesc": ""
+      }
+    ]
   },
   {
     "materialName": "تربية وطنية",
-    "materialQuizes": []
+    "quizType": "arabic-quiz",
+    "materialQuizes": [
+      {
+        "quizName": "فاينل 1",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "فاينل 2",
+        "quizDesc": ""
+      },
+      {
+        "quizName": "فاينل 3",
+        "quizDesc": ""
+      }
+    ]
   }
 ]
