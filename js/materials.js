@@ -26,7 +26,7 @@ $(function () {
           materialInfo.author
         }</span></p>
 
-        <a href = "html/quizLanding.html" class="btn btn--purple" id="material-button ">قائمة الأختبارات</a>
+        <a href = "html/quizLanding.html" class="btn btn--purple" id="material-button ">قائمة الإختبارات</a>
       </div>
       `;
 
